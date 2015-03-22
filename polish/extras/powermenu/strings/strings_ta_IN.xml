@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">வானூர்தி</string>
+    <string name="label_silent_mode">ஓசையற்ற</string>
+    <string name="label_reboot">மறுஇயக்கம்</string>
+    <string name="label_shutdown">அணை சக்தி</string>
+    <string name="label_alert_reboot">மறு இயக்கத்திற்கு மேலே தட்டவும்</string>
+    <string name="label_alert_shutdown">அணை சக்திக்கு மேலே தட்டவும்</string>
+</resources>

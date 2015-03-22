@@ -120,12 +120,4 @@
         <item quantity="other">Gry w toku: %1$d</item>
         <item quantity="one">Trwa %1$d gra</item>
     </plurals>
-    <plurals name="auth_authzen_request_description">
-        <item quantity="other">z przeglądarki na urządzeniu %1$s w: %2$s, mniej niż %s min temu</item>
-        <item quantity="one">z przeglądarki na urządzeniu %1$s w: %2$s, mniej niż %s min temu</item>
-    </plurals>
-    <plurals name="auth_authzen_request_description_no_useragent">
-        <item quantity="other">z: %1$s, mniej niż %2$s min temu</item>
-        <item quantity="one">z: %1$s, mniej niż %2$s min temu</item>
-    </plurals>
 </resources>
