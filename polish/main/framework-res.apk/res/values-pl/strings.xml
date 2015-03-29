@@ -1511,4 +1511,8 @@ Pozostało prób :"</string>
     <string name="reboot_progress">Ponowne uruchamianie…</string>
     <string name="wifi_display_notification_message">Ten ekran jest wyświetlany na innym urządzeniu</string>
     <string name="wifi_display_notification_title">Podłączony jest wyświetlacz bezprzewodowy</string>
+    <string name="storage_phone">Pamięć telefonu</string>
+    <string name="storage_external_usb">Zewnętrzna pamięć USB</string>
+    <string name="media_info_audio_not_supported">Nie udało się odtworzyć dźwięku.</string>
+    <string name="media_info_video_not_supported">Ten film nie jest obsługiwany.</string>
 </resources>

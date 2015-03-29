@@ -3030,4 +3030,12 @@ Na pewno wyłączyć?"</string>
     <string name="move_app_to_device_dlg_title">Move app to SHIELD?</string>
     <string name="move_app_to_sdcard_dlg_title">Przenieść na SD?</string>
     <string name="virus_scanner_lib_update_success">Baza wirusów zaktualizowana</string>
+    <string name="oldman_mode_entry_title">Tryb lekki</string>
+    <string name="oldman_mode_entry_name">Tryb lekki</string>
+    <string name="oldman_mode_settings_caption">Ustawienia trybu lekkiego</string>
+    <string name="oldman_mode_enabled_name">Tryb lekki</string>
+    <string name="oldman_mode_summary">Użyj uproszczonego ekranu głównego i menu</string>
+    <string name="oldman_mode_confirm_title">Uruchomić pownownie?</string>
+    <string name="oldman_mode_confirm_will_oldman_mode_text">Urządzenie uruchomi się ponownie, aby wejść w tryb lekki.</string>
+    <string name="oldman_mode_confirm_will_normal_mode_text">Wyjść z trybu lekkiego?</string>
 </resources>
