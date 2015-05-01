@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_toggle_ac">Blokada</string>
+    <string name="status_bar_toggle_bluetooth">Bluetooth</string>
+    <string name="status_bar_toggle_brightness">Jasność</string>
+    <string name="status_bar_toggle_auto_brightness">Jasność</string>
+    <string name="status_bar_toggle_data">Dane</string>
+    <string name="status_bar_toggle_divider">Więcej</string>
+    <string name="status_bar_toggle_flight_mode">Samolot</string>
+    <string name="status_bar_toggle_gps">GPS</string>
+    <string name="status_bar_toggle_lock">Blokada</string>
+    <string name="status_bar_toggle_mute">Cichy</string>
+    <string name="status_bar_toggle_network_type">Tryb sieci</string>
+    <string name="status_bar_toggle_privacy_mode">Poufny</string>
+    <string name="status_bar_toggle_reboot">Restart</string>
+    <string name="status_bar_toggle_rotate">Rotacja</string>
+    <string name="status_bar_toggle_screen_button">Przyciski</string>
+    <string name="status_bar_toggle_screenshot">Zrzut</string>
+    <string name="status_bar_toggle_shutdown">Wyłącz</string>
+    <string name="status_bar_toggle_sync">Synchronizacja</string>
+    <string name="status_bar_toggle_torch">Latarka</string>
+    <string name="status_bar_toggle_vibrate">Wibracje</string>
+    <string name="status_bar_toggle_wifi">Wi-Fi</string>
+    <string name="status_bar_toggle_power_mode">Wydajny</string>
+    <string name="status_bar_toggle_drive_mode">Samochód</string>
+    <string name="status_bar_toggle_wifi_ap">Hotspot</string>
+    <string name="status_bar_toggle_quiet_mode">Godziny</string>
+    <string name="status_bar_toggle_paper_mode">Tryb czytania</string>
+    <string name="status_bar_toggle_sync_auto">Auto synchr.</string>
+    <string name="status_bar_toggle_sync_manual">Synchr.</string>
+    <string name="status_bar_toggle_syncing">Synchronizacja</string>
+    <string name="screen_rotation_freeze_message">Rotacja ekranu wyłączona</string>
+    <string name="screen_button_disabled_message">"Przyciski nawigacyjne wyłączone. Naciśnij 'Home'+'Zasilanie' aby aktywować je ponownie"</string>
+    <string name="screen_button_enabled_message">Przyciski nawigacyjne włączone</string>
+    <string name="miui">miui</string>
+</resources>

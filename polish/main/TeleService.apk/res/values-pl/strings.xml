@@ -865,4 +865,15 @@ There are %d remaining attempts."</string>
     <string name="xdivert_setting">X-Divert Setting</string>
     <string name="xdivert_summary">CFNRc Settings</string>
     <string name="xdivert_title">X-Divert</string>
+    <string name="jeejen_answer_call_text">Odbieranie połączenia</string>
+    <string name="jeejen_reject_call_text">Odrzucanie połączenia</string>
+    <string name="jeejen_end_call_text">Zakończenie połączenia</string>
+    <string name="jeejen_toggle_dialpad_text">Panel wybierania</string>
+    <string name="jeejen_card_title_dialing">Wybieranie</string>
+    <string name="jeejen_card_title_incoming_call">Połączenie przychodzące</string>
+    <string name="jeejen_card_title_call_cancel">Połączenie anulowane</string>
+    <string name="jeejen_card_title_call_ended">Połączenie zakończone</string>
+    <string name="start_record">Rozpocznij nagrywanie</string>
+    <string name="stop_record">Zatrzymaj nagrywanie</string>
+    <string name="str_db_playlist_name">Moje nagrania</string>
 </resources>

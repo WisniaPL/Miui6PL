@@ -293,4 +293,14 @@
     <string name="disallow_add_to_personal_radio">Tylko do odczytu</string>
     <string name="today_update">Muzyka zaktualizowana</string>
     <string name="click_to_view_new_local_audios">Pokaż szczegóły</string>
+    <string name="delete">Usuń</string>
+    <string name="remove">Usuń</string>
+    <string name="more_about_artist">Więcej o %s</string>
+    <string name="play_all_song">Odtwórz wszystkie</string>
+    <string name="download_all_song">Pobierz wszystkie</string>
+    <string name="sort_by_name">Nazwa</string>
+    <string name="sort_by_time">Data</string>
+    <string name="sort_by_language">Język</string>
+    <string name="only_online_can_select_quality">Można wybrać tylko jakość dla strumieniowego przesyłania muzyki.</string>
+    <string name="action_item_favorite">Ulubione</string>
 </resources>

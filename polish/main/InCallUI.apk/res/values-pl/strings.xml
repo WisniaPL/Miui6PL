@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="phoneAppLabel">Telefon</string>
+    <string name="jeejen_answer_call_text">Odbieranie połączenia</string>
+    <string name="jeejen_reject_call_text">Odrzucanie połączenia</string>
+    <string name="jeejen_end_call_text">Zakończenie połączenia</string>
+    <string name="jeejen_toggle_dialpad_text">Panel wybierania</string>
+    <string name="jeejen_card_title_dialing">Wybieranie</string>
+    <string name="jeejen_card_title_incoming_call">Połączenie przychodzące</string>
+    <string name="jeejen_card_title_call_cancel">Połączenie anulowane</string>
+    <string name="jeejen_card_title_call_ended">Połączenie zakończone</string>
+    <string name="start_record">Rozpocznij nagrywanie</string>
+    <string name="stop_record">Zatrzymaj nagrywanie</string>
+    <string name="str_db_playlist_name">Moje nagrania</string>
     <string name="onscreen_add_call_text">Dodaj</string>
     <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
     <string name="onscreen_audio_mode_handset">Zestaw słuchawkowy</string>
