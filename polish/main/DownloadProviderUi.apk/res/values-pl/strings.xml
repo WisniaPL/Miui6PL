@@ -27,7 +27,7 @@
     <string name="paused_waiting_for_network">Oczekiwanie na połączenie sieci</string>
     <string name="paused_waiting_to_retry">Oczekiwanie na ponowienie</string>
     <string name="paused_unknown">Wstrzymane z nieznanego powodu</string>
-    <string name="confirm_delete_downloads_message">%d pobierań zostanie usuniętych!</string>
+    <string name="confirm_delete_downloads_message">%d zadań pobierania zostanie usuniętych!</string>
     <string name="confirm_delete_the_download_item_message">Usunąć pobrane pliki?</string>
     <string name="delete_the_downloaded_file">Usuń pobrane pliki</string>
     <string name="downloads_operating">Przetwarzanie...</string>
@@ -114,7 +114,7 @@
     <string name="download_title">Pobieranie</string>
     <string name="download_title_sorted_by_date">Pobierania - Sortowane po dacie</string>
     <string name="download_title_sorted_by_size">Pobierania - Sortowane po rozmiarze</string>
-    <string name="no_downloads">Brak pobierań</string>
+    <string name="no_downloads">Brak pobrań</string>
     <string name="missing_title">Nieznany</string>
     <string name="button_sort_by_size">Sortuj po rozmiarze</string>
     <string name="button_sort_by_date">Sortuj po dacie</string>

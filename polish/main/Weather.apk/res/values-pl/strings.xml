@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Dostawca Pogody</string>
-    <string name="aqi_quality_index_pure">AQI %1$s</string>
-    <string name="aqi_quality_index_good">AQI %1$s</string>
-    <string name="aqi_quality_index_moderate">AQI %1$s</string>
-    <string name="aqi_quality_index_light_pollution">AQI %1$s</string>
-    <string name="aqi_quality_index_unhealthy">AQI %1$s</string>
-    <string name="aqi_quality_index_dangerous">AQI %1$s</string>
-    <string name="aqi_quality_index_hazardous">AQI %1$s</string>
-    <string name="aqi_quality_index_break">AQI %1$s</string>
+    <string name="aqi_quality_index_pure" />
+    <string name="aqi_quality_index_good" />
+    <string name="aqi_quality_index_moderate" />
+    <string name="aqi_quality_index_light_pollution" />
+    <string name="aqi_quality_index_unhealthy" />
+    <string name="aqi_quality_index_dangerous" />
+    <string name="aqi_quality_index_hazardous" />
+    <string name="aqi_quality_index_break" />
     <string name="view_indexes_wind_unit">km/h</string>
     <string name="weather_unit">°</string>
     <string name="weather_unit_middle">~</string>
@@ -34,7 +34,7 @@
     <string name="view_aqi_title">Powietrze</string>
     <string name="act_weather_find_city_net_no_good">Brak połączenia z siecią</string>
     <string name="act_weather_find_city_click_retry">Ponów</string>
-    <string name="act_weather_find_city_connect_net">Sprawdź połączenie z siecią i spróbuj ponownie.</string>
+    <string name="act_weather_find_city_connect_net">Sprawdź połączenie z siecią i spróbuj ponownie</string>
     <string name="act_weather_find_city_searching">Wyszukiwanie…</string>
     <string name="loading_weather">Wczytywanie…</string>
     <string name="act_weather_cycle_link_china">WeatherChina</string>
@@ -64,6 +64,7 @@
     <string name="activity_main_update_time">Aktualizowane %1$s</string>
     <string name="activity_main_update_time_right_now">Teraz</string>
     <string name="activity_main_refresh_timeout">" "</string>
+    <string name="activity_main_refresh_fail">Nie można połączyć się z siecią</string>
     <string name="activity_find_city_dialog_cancel">Anuluj</string>
     <string name="activity_find_city_dialog_set">Włącz lokalizację</string>
     <string name="activity_find_city_dialog_title">Usługi lokalizacji</string>
@@ -81,4 +82,14 @@
     <string name="first_start_network_msg">Wymagane jest połączenie z siecią do pobierania prognoz pogody</string>
     <string name="first_start_network_title">Informacja o sieci</string>
     <string name="international_detail_menu_title">Szczegółowa prognoza</string>
+    <string name="share_menu_title">Udostępnij pogodę</string>
+    <string name="share_btn_cancel">Anuluj</string>
+    <string name="share_btn_confirm">Udostępnij</string>
+    <string name="share_subject">Moja pogoda</string>
+    <string name="share_button">Udostępnij</string>
+    <string name="share_weather_save_pic_fail">Nie można wykonać zrzutu</string>
+    <string name="share_title">Moja pogoda</string>
+    <string name="share_weather_desc_split">". Aktualnie jest "</string>
+    <string name="share_weather_desc">Moja pogoda w: %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
 </resources>

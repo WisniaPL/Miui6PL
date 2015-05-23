@@ -197,13 +197,20 @@ w dół by zablokować"</string>
     <string name="mdb_entering">Przechodzenie</string>
     <string name="status_bar_recording_back">Powróć do nagrywania</string>
     <string name="status_bar_recording_pause">Nagrywanie jest zatrzymane. Kliknij na pasku statusu aby powrócić do nagrywania</string>
-    <string name="headset_settings">Słuchawki podłączone</string>
+    <string name="headset_settings">Podłączono słuchawki</string>
     <string name="headset_info">Zmień typ słuchawek i funkcje przycisków</string>
-    <string name="headset_custom">Własne</string>
+    <string name="headset_custom">Anuluj</string>
     <string name="usb_share_net_info">Udostępnij Internet z PC</string>
     <string name="hint_for_long_press_app_switch_key">Naciśnij długo by pokazać menu</string>
     <string name="battery_profiles">Profile baterii</string>
     <string name="audio_effect_settings">Ustaw typ słuchawek</string>
     <string name="audio_effect_info">Efekty dźwięku</string>
     <string name="audio_effect_custom">Własne</string>
+    <string name="media_projection_dialog_text">%s rozpocznie przechwytywanie wszystkiego co wyświetla się na ekranie</string>
+    <string name="media_projection_remember_text">Nie pokazuj ponownie</string>
+    <string name="media_projection_action_text">Rozpocznij teraz</string>
+    <string name="vpn_title">Połączenie VPN aktywne</string>
+    <string name="vpn_title_long">Łączenie z VPN przez %s</string>
+    <string name="vpn_text">Dotknij by pokazać szczegóły</string>
+    <string name="vpn_text_long">Połączony z %s. Dotknij by pokazać szczegóły.</string>
 </resources>

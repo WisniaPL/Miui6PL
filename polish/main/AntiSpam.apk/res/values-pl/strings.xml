@@ -224,7 +224,7 @@
     <string name="st_title_backsound_group">Dźwięki przy blokowaniu</string>
     <string name="st_title_anticomintcall_backsound_setting">Dźwięk</string>
     <string name="st_title_settings_other_group">Pozostałe ustawienia</string>
-    <string name="st_title_show_antispamnotification">Powiadomienia o blokowaniu</string>
+    <string name="st_title_show_antispamnotification">Powiadomienia</string>
     <string name="st_title_mode_choose_group">Wybierz tryb</string>
     <string name="st_title_adblock_group">Blokuj reklamy</string>
     <string name="st_title_adblock_setting">Ustawienia</string>
@@ -282,5 +282,9 @@
     <string name="call_transfer_block_type">Blokuj przekazane połączenia</string>
     <string name="call_transfer_info">Blokuj połączenia przekazane od nieznanych numerów</string>
     <string name="sms_smart_engine_update">Aktualizuj filtr SMS</string>
+    <string name="antispam_notification_setting_title">Powiadomienia o blokowaniu</string>
+    <string name="antispam_notificaiton_type_show_all">Wszystkie</string>
+    <string name="antispam_notificaiton_type_show_except_blacklist">Spoza czarnej listy</string>
+    <string name="antispam_notificaiton_type_show_none">Bez powiadomień</string>
     <string name="APKTOOL_DUMMY_0130">false</string>
 </resources>

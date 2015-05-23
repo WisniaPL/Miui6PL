@@ -82,6 +82,8 @@
     <string name="too_many_attachments">Obowiązujący limit załączników to %1$s. Liczba pierwszych załączników, które zostaną dodane, wynosi %2$s.</string>
     <string name="adding_attachments_title">Dodawanie załączników</string>
     <string name="adding_attachments">Poczekaj na zakończenie dodawania elementów do pokazu slajdów.</string>
+    <string name="recipients_over_size">Zbyt dużo odbiorców</string>
+    <string name="over_max_mms_size">Wiadomość MMS jest za duża</string>
     <string name="preview">Podgląd</string>
     <string name="preview_slideshow">Podgląd</string>
     <string name="replace_image">Zastąp zdjęcie</string>
@@ -109,6 +111,7 @@
     <string name="pref_title_sms_delete">Limit wiadomości SMS</string>
     <string name="pref_title_mms_delete">Limit wiadomości MMS</string>
     <string name="pref_messages_to_save">Set number of messages to save</string>
+    <string name="pref_title_storage_status">Pojemność skrzynki SMS</string>
     <string name="pref_title_mms_auto_retrieval">Autoodbieranie</string>
     <string name="pref_summary_mms_auto_retrieval">Odbierz wiadomości automatycznie</string>
     <string name="pref_title_mms_retrieval_during_roaming">W roamingu</string>
@@ -124,7 +127,9 @@
     <string name="confirm_restore_all_title">Przywócić wszystkie wiadomości?</string>
     <string name="confirm_no_block_title">Zaprzestać blokowania numeru i przywrócić wszystkie wiadomości?</string>
     <string name="confirm_no_block_positive">Nie blokuj numeru</string>
-    <string name="confirm_restore_title">Przywrócić wszystkie zaznaczone wiadomości?</string>
+    <string name="confirm_restore_checkbox">Odblokuj wiadomości z tego numeru</string>
+    <string name="confirm_restore_title">Przywróć wiadomości</string>
+    <string name="confirm_restore_message">Przywrócić wiadomości?</string>
     <string name="confirm_restore_positive">Przywróć</string>
     <string name="delete_unlocked">Usuń zablokowane wiadomości</string>
     <string name="delete">Usuń</string>
@@ -307,6 +312,8 @@
     <string name="pref_summary_wake_up_screen">Włącz ekran przy otrzymaniu wiadomości</string>
     <string name="pref_title_delivery_reports">Potwierdzenie dostarczenia</string>
     <string name="pref_summary_delivery_reports">Pokaż potwierdzenie dostarczenia (\"✓\") dla każdej wysłanej wiadomości</string>
+    <string name="pref_title_send_delivery_reports">Raporty dostarczenia</string>
+    <string name="pref_summary_send_delivery_reports">Wyślij raporty dostarczenia wiadomości</string>
     <string name="pref_title_ringtone_repeat">Powtarzanie dzwonka</string>
     <string name="pref_title_ringtone_repeat_summary">Określ ilość powtórzeń dzwonka:</string>
     <string name="pref_other_title">Pozostałe</string>
@@ -538,4 +545,14 @@ Pobrać wiadomości i dodać do skrzynki odbiorczej?"</string>
     <string name="block_messaging_entry_title">Blokowany SMS</string>
     <string name="message_contact">Kontakt:</string>
     <string name="message_number">Numer telefonu:</string>
+    <string name="storage_dialog_mms">MMS: %d</string>
+    <string name="storage_dialog_mms_size">Rozmiar MMS:</string>
+    <string name="storage_dialog_attachments">Załączniki:</string>
+    <string name="storage_dialog_sms">SMS: %d</string>
+    <string name="storage_dialog_database">Baza danych:</string>
+    <string name="storage_dialog_available_space">Dostępne miejsce:</string>
+    <string name="storage_unavailable">Brak dostępnego miejsca</string>
+    <string name="security_alert_desc">"The sender isn't in your contacts. &lt;u>&lt;font color=red>Report this number&lt;/font>&lt;/u>"</string>
+    <string name="security_alert_dialog_title">Report</string>
+    <string name="security_alert_dialog_desc">Report this number (%s) and message by sending it to Xiaomi for review.</string>
 </resources>

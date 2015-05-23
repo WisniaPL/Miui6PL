@@ -91,6 +91,8 @@
     <string name="resource_trial_end_purchase">Kup</string>
     <string name="deleting">Deleting…</string>
     <string name="resource_title_select_ringtone">Wybierz dzwonek</string>
+    <string name="resource_select_ringtone_confirm">Wybrać ten dźwięk?</string>
+    <string name="resource_select_ringtone_confirm_picker">Wybrać ten dźwięk?</string>
     <string name="loading_resource_detail_info">Ładowanie…</string>
     <string name="loading_resource_detail_fail">"Can't load resource"</string>
     <string name="resource_expand_full_text">Rozwiń</string>
@@ -569,7 +571,7 @@ Naciśnij gwiazdkę
     <string name="use_photo_as_primary">Użyj tego zdjęcia</string>
     <string name="contact_read_only">Nie można edytować w tej aplikacji.</string>
     <string name="no_contact_details">Brak dodatkowych informacji dla tego kontaktu</string>
-    <string name="group_read_only">Nie można edytować na tym urządzeniu.</string>
+    <string name="group_read_only">Nie można edytować na tym urządzeniu</string>
     <string name="display_options_sort_list_by">Sortuj listę według</string>
     <string name="display_options_sort_by_given_name">Imię</string>
     <string name="display_options_sort_by_family_name">Nazwisko</string>
@@ -764,8 +766,8 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="callrecordview_menu_show_called">Pokaż wybrane połączenia</string>
     <string name="callrecordview_menu_show_accepted">Pokaż odebrane połączenia</string>
     <string name="callrecordview_menu_show_stranger">Pokaż nieznane połączenia</string>
-    <string name="callrecordview_menu_show_new">Nowe kontakty</string>
-    <string name="callrecordview_menu_show_sim">%s połączeń</string>
+    <string name="callrecordview_menu_show_new">Pokaż połączenia z nowymi kontaktami</string>
+    <string name="callrecordview_menu_show_sim">Pokaż połączenia z %s</string>
     <string name="callrecordview_menu_delete">Usuń rejestr</string>
     <string name="callrecordview_menu_delete_all">Usuń rejestr połączeń</string>
     <string name="callrecordview_menu_delete_missed">Usuń nieodebrane połączenia</string>
@@ -816,6 +818,7 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="contactDetailCalllog">Połączenia</string>
     <string name="add_blacklist">Czarna lista</string>
     <string name="remove_blacklist">Usuń z czarnej listy</string>
+    <string name="blacklist">Blokuj</string>
     <string name="noContactHelpTextAccountsInfo" />
     <string name="noContactHelpTextImportXiaomiAccountInfo">Przywróć kontakty z konta Xiaomi i MiTalk</string>
     <string name="recent_contacts_label">Ostatnie</string>
@@ -828,6 +831,7 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="picker_contact_title">Wybierz kontakt</string>
     <string name="picker_number_title">Wybierz numer</string>
     <string name="group_add_fail_toast">Nie udało się dodać kontaktu</string>
+    <string name="group_sms_error_message">Wiadomość może mieć do %s odbiorców</string>
     <string name="picker_postal_title">Wybierz kod</string>
     <string name="picker_email_title">Wybierz E-mail</string>
     <string name="preference_import">Przywracanie kontaktów</string>
@@ -848,7 +852,7 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="preference_import_export_title">Kopia i przywracanie kontaktów</string>
     <string name="import_vcard_description">Przywróć kontakty z nośnika</string>
     <string name="export_vcard_description">Kopiuj dane kontaktów na nośnik</string>
-    <string name="export_sim_contact_finish_failure">Karta SIM jest pełna. Udane: %1$d, nieudane: %2$d</string>
+    <string name="export_sim_contact_finish_msg">Przeniesione: %1$d | Pominięte: %2$d | Pozostało: %3$d</string>
     <string name="pref_title_account_import">Przenoszenie kontaktów</string>
     <string name="pref_title_import_from_account">Kopiowanie na konto Xiaomi</string>
     <string name="pref_summary_import_from_account">Kopiowanie kontaktów z Google lub Exchange na konto Xiaomi</string>
@@ -893,6 +897,7 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="preference_dial_pad_touch_tone_human">Ludzki głos</string>
     <string name="ic_menu_done">Gotowe</string>
     <string name="cloud_antispam_title">Filtrowanie numerów</string>
+    <string name="preference_contacts_recovery_introduction">Odzyskiwanie kontaktów</string>
     <string name="share_over_limit">Ponad limit. Nie można udostępnić</string>
     <string name="account_default">Telefon</string>
     <string name="lunarBirthdayLabelsGroup">Urodziny księżycowe</string>
@@ -945,7 +950,7 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="group_rename_dialog_title">Zmień nazwę grupy</string>
     <string name="group_sms_progress_msg">Rozpoczynanie grupowe SMS…</string>
     <string name="group_create_success_toast">Grupa pomyślnie utworzona</string>
-    <string name="group_rename_success_toast">Nazwa grypy pomyślnie zmieniona</string>
+    <string name="group_rename_success_toast">Nazwa grupy została zmieniona</string>
     <string name="group_delete_success_toast">Grupa pomyślnie usunięta</string>
     <string name="group_create_fail_toast">Nie udało się utworzyć grupy</string>
     <string name="group_rename_fail_toast">Nie udało się zmienić nazwy</string>
@@ -1079,8 +1084,8 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="sim_contact_dropdown_menu_select_all_miui">Zaznacz wszystko</string>
     <string name="delete_selected_sim_entry_miui">Usuwanie kontaktów z SIM</string>
     <string name="import_selected_sim_entries_miui">Przywróć zaznaczone kontakty</string>
-    <string name="dlg_add_blacklist">Dodać wybrany numer do czarnej listy?</string>
-    <string name="dlg_remove_blacklist">Usunąć wybrany numer z czarnej listy?</string>
+    <string name="add_blacklist_dialog_title">Dodaj do czarnej listy</string>
+    <string name="remove_blacklist_dialog_title">Usuń z czarnej listy</string>
     <string name="close_dial_pad">Zamknij klawiaturę</string>
     <string name="dial">Wybierz</string>
     <string name="delete_dial_input">Usuń</string>
@@ -1127,6 +1132,7 @@ Wybierz jedną z następujących opcji:"</string>
     <string name="pull_to_refresh_pull_label">Odśwież…</string>
     <string name="pull_to_refresh_release_label">Puść…</string>
     <string name="pull_to_refresh_refreshing_label">Wczytywanie…</string>
+    <string name="phone_call_type_voip">VOIP</string>
     <string name="resource_get_auth_missing">Motyw nie został pobrany z marketu MIUI. Zaloguj się do konta Xiaomi i pobierz motyw z oficjalnego marketu.</string>
     <string name="resource_tip_select_ringtone">Nie wybrano dzwonka</string>
     <string name="resource_trial_end_restore_nickname">Przywróć</string>

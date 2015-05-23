@@ -79,8 +79,6 @@
     <string name="delete">Usuń</string>
     <string name="confirm_delete">Na pewno usunąć %s?</string>
     <string name="comfirm_delete_current_album">Na pewno usunąć aktualny album?</string>
-    <string name="confirm_delete_album" formatted="false">Usunąć %s albumów (%s zdjęć)?</string>
-    <string name="confirm_delete_system_album">%s jest albumem systemowym</string>
     <string name="operation_delete_confirm_message_folder">"Pliki i katalogi zostaną jednocześnie usunięte. "</string>
     <string name="delete_folder">Na pewno usunąć %1$d wybranych katalogów?</string>
     <string name="delete_file">Na pewno usunąć %1$d wybranych plików?</string>
@@ -98,6 +96,7 @@
     <string name="details_title">%1$d z %2$d:</string>
     <string name="close">Zamknij</string>
     <string name="select_item">Edycja</string>
+    <string name="select_item_face">Select photos belong to %1</string>
     <string name="show_on_map">Pokaż na mapie</string>
     <string name="no_map_app">Brak aplikacji do obsługi map</string>
     <string name="no_such_item">Nie można znaleźć zasobu</string>
@@ -184,6 +183,7 @@
     <string name="remove_hidden_album">Anuluj ukrywanie</string>
     <string name="skip_hide_special_album">Albumy systemowe (np. Zdjęcia aparatu, Zrzuty ekranu) nie mogą zostać ukryte.</string>
     <string name="photos">" zdjęcia"</string>
+    <string name="videos">Videos</string>
     <string name="tab_lockscreen_text">Blokada</string>
     <string name="tab_wallpaper_text">Pulpit</string>
     <string name="tab_all_text">Wszystko</string>
@@ -238,7 +238,7 @@
     <string name="send_multiple_files_hint_format">Wyślij (%s)</string>
     <string name="send">Wyślij</string>
     <string name="select_too_much_to_send_tips">Zaznaczono za dużo zdjęć do wysłania. Maksymalnie: %d.</string>
-    <string name="pick_too_much_tips">Można zaznaczyć maksymalnie %d elementów.</string>
+    <string name="pick_too_much_tips">Można zaznaczyć maksymalnie %d elementów</string>
     <string name="sd_not_available">Pamięć wewnętrzna odłączona</string>
     <string name="internal_sd_card">Wewnętrzna pamięć</string>
     <string name="internal_sd_card_hm">Wewnętrzna pamięć</string>
@@ -325,7 +325,7 @@
     <string name="alert_secret_album_title">Dodano do ukrytego albumu</string>
     <string name="alert_secret_album_message">Przesuń w dół w widoku albumów by pokazać ukryty album. Do ochrony albumu potrzebny będzie wzór.</string>
     <string name="alert_secret_album_set_pattern">Zabezpiecz wzorem</string>
-    <string name="cant_delete_cloud_album">Nie można usunąć. %s jest systemowym albumem</string>
+    <string name="cant_delete_system_album">Nie można usunąć. %s jest albumem systemowym.</string>
     <string name="cannot_delete_sharer_photo">Nie można usunąć %s elementów skopiowanych przez innych użytkowników</string>
     <string name="share_album">Udostępnij album</string>
     <string name="share_album_owner">Właściciel</string>
@@ -517,8 +517,10 @@
     <string name="internal_sdcard_root">Katalog początkowy karty SD</string>
     <string name="external_sdcard_root">Katalog początkowy SD</string>
     <string name="miui_wallpaper">Tapeta</string>
-    <string name="pocket_camera_picture">Pocket Camera pictures</string>
-    <string name="pocket_camera_video">Pocket Camera videos</string>
+    <string name="wandoujia">SnapPea</string>
+    <string name="sports_camera">Sports Camera</string>
+    <string name="pocket_camera_picture">Zdjęcia z kamery YI</string>
+    <string name="pocket_camera_video">Wideo z kamery YI</string>
     <string name="moman_camera_picture">Moman Camera pictures</string>
     <string name="moman_camera_drawing">Moman Camera drawing</string>
     <string name="moman_camera_icon">Moman Camera emoticon</string>
@@ -543,9 +545,6 @@
     <string name="error_not_acceptable">Synchr. wyłączona.</string>
     <string name="long_press_to_refocus">Naciśnij i przytrzymaj by ustawić ostrość</string>
     <string name="ubifocus_data_missing">Some of the data for this image is missing</string>
-    <string name="ubifocus_map_error">Some of the data for this image contains errors</string>
-    <string name="ubifocus_refocus_data_missing">"Can't refocus because some of this image's data is missing"</string>
-    <string name="ubifocus_refocus_map_error">"Can't refocus because some of this image's data contains errors"</string>
     <string name="ubifocus_refocus_download_tip">"You need to download this image's data before refocusing."</string>
     <string name="download_refocus_data">Pobieranie danych refocus</string>
     <string name="refocus_data_downloading">Pobieranie danych refocus…</string>
@@ -557,12 +556,15 @@
     <string name="paint_cancel_context">Zakończyć edycję bez zapisywania zmian?</string>
     <string name="paint_crop_cancel_title">Nie zapisano zmian</string>
     <string name="paint_crop_cancel_context">Zapisać edytowane zdjęcie?</string>
+    <string name="paint_highlight_cancel_title">Porzuć zmiany</string>
+    <string name="paint_highlight_cancel_context">Zapisać wyróżnione zdjęcie?</string>
     <string name="do_not_save">Nie zapisuj</string>
-    <string name="photo_paint_crop">Zapisz</string>
+    <string name="paint_highlight">Wyróżnienie</string>
     <string name="free">Własne</string>
     <string name="square">Kwadrat</string>
     <string name="original_scale">Skala org.</string>
     <string name="photo_save_succeed">Zmiany zostały zapisane</string>
+    <string name="paint_brush">Paint brush</string>
     <string name="impunity_declaration_title">Łączność z siecią</string>
     <string name="impunity_declaration">Aplikacja Galerii może wymagać połączenia z siecią Internet. Czy zgadzasz się na łączność aplikacji z siecią?</string>
     <string name="impunity_declaration_ignore">Nie pokazuj ponownie</string>
@@ -585,11 +587,14 @@
     <string name="face_albumset_detecting_tip">Wykrywanie twarzy...</string>
     <string name="face_albumset_empty">Nie wykryto twarzy</string>
     <string name="start_to_use_face_albumset">Sortuj po osobach</string>
+    <string name="enabling_face_feature">Turning on…</string>
+    <string name="face_albumset_pending_enable_tip">Will sort photos when device is connected to WLAN</string>
     <string name="face_album_not_named">Bez nazwy</string>
     <string name="rename_face_album">Zmień nazwę</string>
     <string name="rename_fail_msg">Nie można zmienić nazwy</string>
     <string name="merge_album_positive_button_text">Połącz</string>
     <string name="confirm_merge_face_albums">" &lt;Data> Połącz z albumem &amp;lt;font color=#323232&amp;gt;&amp;lt;b&amp;gt;%s&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;? &lt;/Data> "</string>
+    <string name="ignore_album">Ignore</string>
     <string name="create_new_face">Nowa osoba</string>
     <string name="preparing_data">Chwileczkę…</string>
     <string name="ignore_face">Pomiń osobę</string>
@@ -598,7 +603,34 @@
     <string name="name_wrong">Nieprawidłowa nazwa dla %s</string>
     <string name="face_album_rename_hint">Wpisz nazwę</string>
     <string name="face_move_dialog_title">Wybierz album</string>
+    <string name="confirm_face">Dopasuj</string>
+    <string name="confirm_not_face">No this person</string>
+    <string name="confirm_left_photo_will_move_out">Zdjęcia z lewej zostaną usunięte z albumu</string>
+    <string name="confirm_all_photo_not_this_people_face">Brak dopasowań?</string>
+    <string name="last_valentine_day">Last Valentine Day</string>
+    <string name="last_new_year">Last New Years</string>
+    <string name="last_chinese_new_year">Last Chinese New Year</string>
+    <string name="last_year_today">1 year ago</string>
+    <string name="always_rotate_alert_title">Autoobracanie zdjęć</string>
+    <string name="always_rotate_alert_msg">Wyłącz w ustawieniach Galerii</string>
+    <string name="always_rotate_alert_positive_button_text">Włącz</string>
+    <string name="project_available_tip">Wykryto zdalny wyświetlacz</string>
+    <string name="single_device_project_dialog_title">Projekcja %s</string>
+    <string name="single_device_project_dialog_checkbox_text">Pamiętaj ten wyświetlacz</string>
+    <string name="network_connected_rescan">Połącz z siecią i spróbuj ponownie</string>
+    <string name="no_secret_photo">No secret photo</string>
+    <string name="in_home_page_long_press_photo_setting_secret_photo">In the gallery, please long press the photo which you want to set privately，then choose Add to hidden album</string>
+    <string name="all_video_album_display_name">Wszystkie wideo</string>
     <string name="paint_crop_tips">Postaraj się umieścić interesujące fragmenty zdjęcia w punktach siatki</string>
+    <string name="saturation_abbr">S</string>
+    <string name="highlight_abbr">J</string>
+    <string name="contrast_abbr">K</string>
+    <string name="confirm_delete_album" formatted="false">Usunąć %s albumów (%s zdjęć)?</string>
+    <string name="confirm_delete_system_album">%s jest albumem systemowym</string>
     <string name="new_feature">Nowa funkcja</string>
+    <string name="photo_paint_crop">Zapisz</string>
     <string name="sina_weibo_save">Weibo</string>
+    <string name="ubifocus_map_error">Some of the data for this image contains errors</string>
+    <string name="ubifocus_refocus_data_missing">"Can't refocus because some of this image's data is missing"</string>
+    <string name="ubifocus_refocus_map_error">"Can't refocus because some of this image's data contains errors"</string>
 </resources>

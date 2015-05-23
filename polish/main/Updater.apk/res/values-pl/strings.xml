@@ -45,6 +45,8 @@
     <string name="cancel_download_buton_text">Anuluj</string>
     <string name="boot_recovery">Przejść do trybu Recovery?</string>
     <string name="cancel_download">Zatrzymać pobieranie aktualizacji?</string>
+    <string name="update_success_reboot_immediately">Urządzenie zaktualizowane</string>
+    <string name="download_success_reboot_immediately">Uruchom ponownie</string>
     <string name="update_success">Aktualizacja zakończona!</string>
     <string name="install_failed">Instalacja nieudana</string>
     <string name="download_current_rom">Zainstaluj</string>
@@ -56,6 +58,7 @@
     <string name="notification_reboot_summary_hm">Uruchom ponownie</string>
     <string name="notification_reboot_btn">Restart</string>
     <string name="notification_reboot_seccess_title">Urządzenie jest aktualne!</string>
+    <string name="notification_auto_reboot_seccess_title">Urządzenie zaktualizowane!</string>
     <string name="notification_reboot_seccess_des">Udostępnij informacje o aktualizacji.</string>
     <string name="notification_share">Udostępnij</string>
     <string name="notification_downloading">Pobieranie…</string>
@@ -189,6 +192,26 @@ http://zhushou.xiaomi.com"</string>
     <string name="submit_success">Wysłano pomyślnie!</string>
     <string name="submit_fail">Nie udało się wysłać</string>
     <string name="submit">Wyślij</string>
+    <string name="updater_wait_for_unzip">Dekompresowanie zip…</string>
+    <string name="vote_beta">Beta Feedback Program</string>
+    <string name="vote_submit">Wyślij</string>
+    <string name="vote_recommend">Polecam aktualizację</string>
+    <string name="vote_not_recommend">Nie polecam</string>
+    <string name="vote_error_nonetwork">"Can't connect to the network"</string>
+    <string name="vote_error1">Wygląda na to, że nie jesteś jeszcze członkiem Beta Team</string>
+    <string name="vote_error2">"Couldn't submit feedback.
+Update your device and try again"</string>
+    <string name="vote_hint">Otrzymasz 20 punktów na forum MIUI po zagłosowaniu</string>
+    <string name="vote_join">Zagłosowano</string>
+    <string name="vote_experience">Forum experience</string>
+    <string name="vote_error3">"Couldn't sign in.
+Try signing in your Mi Account again."</string>
+    <string name="vote_error4">You already submitted feedback</string>
+    <string name="vote_error5">"Something went wrong
+Couldn't submit feedback"</string>
+    <string name="welcom_title">Witaj w MIUI 6</string>
+    <string name="welcom_message">Wszystko gotowe</string>
+    <string name="welcom_button">OK</string>
     <string name="downloading_description">Pobieranie...</string>
     <string name="url_down">http://91.205.75.29//miui-V6/%1$s/MIUIPolska_%2$s_%1$s_v6-4.4.zip</string>
 </resources>
