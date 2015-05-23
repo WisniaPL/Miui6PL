@@ -1640,9 +1640,8 @@ Pozostało prób :"</string>
     <string name="wifi_display_notification_title">Podłączony jest wyświetlacz bezprzewodowy</string>
     <string name="year_picker_description">Lista lat</string>
     <string name="zen_mode_forever">Na czas nieokreślony</string>
-        <string name="storage_phone">Pamięć telefonu</string>
+    <string name="storage_phone">Pamięć telefonu</string>
     <string name="storage_external_usb">Zewnętrzna pamięć USB</string>
     <string name="media_info_audio_not_supported">Nie udało się odtworzyć dźwięku.</string>
     <string name="media_info_video_not_supported">Ten film nie jest obsługiwany.</string>
-
 </resources>
