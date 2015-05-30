@@ -2767,9 +2767,9 @@ Na pewno wyłączyć?"</string>
     <string name="xiaomi_router_notif_summary">Powiadom mnie jeśli router Xiaomi jest widoczny</string>
     <string name="xiaomi_router_available_notif_title">Dostępny jest Xiaomi router</string>
     <string name="xiaomi_router_available_notif_summary">Pokaż zawartość</string>
-    <string name="restrict_background_data_title">Restrict background data</string>
-    <string name="restrict_background_data_dialog_summary">Apps running in the background can’t receive messages</string>
-    <string name="restrict_background_data_notification_summary">"Apps can't connect to network if background data is restricted"</string>
+    <string name="restrict_background_data_title">Ogranicz dane w tle</string>
+    <string name="restrict_background_data_dialog_summary">Aplikacje działające w tle nie mogą odbierać wiadomości</string>
+    <string name="restrict_background_data_notification_summary">"Aplikacje nie mogą połączyć się z siecią, jeśli dane w tle są ograniczone"</string>
     <string name="accessibility_screen_magnification_enable">Gesty powiększania</string>
     <string name="miui_screensaver_state_on">Wł</string>
     <string name="miui_screensaver_state_off">Wył</string>
