@@ -71,4 +71,5 @@
     <string name="remove_task_in_process">usuwanie</string>
     <string name="remove_task_unfinished">usuń niezakończone</string>
     <string name="back_up_task_unfinished">w toku</string>
+    <string name="about_to_recover">Gotowy do przywracania</string>
 </resources>

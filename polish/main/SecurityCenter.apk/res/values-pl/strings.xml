@@ -280,7 +280,7 @@ i włączone o %2$s"</string>
     <string name="last_check_date_today">"Ostatnie skanowanie: dziś "</string>
     <string name="last_check_date_yesterday">Ostatnie skanowanie: wczoraj</string>
     <string name="last_check_never_checked">Zalecane skanowanie (pierwszy raz)</string>
-    <string name="last_check_canceled">zostało anulowane</string>
+    <string name="last_check_canceled">Anulowane</string>
     <string name="last_checked_default">%s dni temu</string>
     <string name="examination_score_100">Wszystko w porządku!</string>
     <string name="examination_score_100_with_recommend">%d el. może być zoptymalizowanych</string>
@@ -342,7 +342,7 @@ i włączone o %2$s"</string>
     <string name="hints_scan_result_safe">Bezpiecznie</string>
     <string name="hints_scan_result_risk">Wykryto zagrożenie</string>
     <string name="hints_scan_result_virus">Wykryty wirus</string>
-    <string name="hints_virus_scan_result_descx">"This app is a major risk to your phone's security."</string>
+    <string name="hints_virus_scan_result_descx">Ta aplikacja stanowi ryzyko dla systemu.</string>
     <string name="hints_unknown_virus_name">Nieznany</string>
     <string name="descx_quick_scan_done">Skanowanie zakończone</string>
     <string name="descx_quick_scan_cancel">Skanowanie anulowane</string>
@@ -493,7 +493,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="title_dev_no">Opcje programistyczne włączone</string>
     <string name="summary_dev">Sprawdzaj aplikacje mające dostęp do prywatnych danych</string>
     <string name="menu_item_app_permissions_control">Zarządzanie uprawnieniami</string>
-    <string name="menu_item_control_app_permissions">Aplikacje muszą poprosić po pozwolenie na czytanie kontaktów, wyświetlanie rejestru połączeń, zmianę ustawień systemowych, dostęp do aparatu czy innych zasobów systemowych</string>
+    <string name="menu_item_control_app_permissions">Aplikacje muszą poprosić o pozwolenie na czytanie kontaktów, wyświetlanie rejestru połączeń, zmianę ustawień systemowych, dostęp do aparatu czy innych zasobów systemowych</string>
     <string name="permission_close_permission_control_dialog_title">Wyłączyć zarządzanie uprawnieniami?</string>
     <string name="permission_close_permission_control_dialog_msg">Kiedy \"Zarządzanie uprawnieniami\" jest wyłączone aplikacje nie będą prosić o pozwolenie na czytanie kontaktów, wyświetlanie rejestru połączeń, zmianę ustawień systemowych, dostęp do aparatu czy innych zasobów systemowych</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Zarządzanie uprawnieniami</string>
@@ -505,7 +505,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="scanning_bar_system_text">Uprawnienia aplikacji</string>
     <string name="hints_scanning_text">Skanowanie…</string>
     <string name="auto_handle_title">OGÓLNE</string>
-    <string name="manual_handle_title">Dostępne funkcje</string>
+    <string name="manual_handle_title">Dostępne sugestie:</string>
     <string name="manual_item_white_list_title">Wyjątki</string>
     <string name="manual_item_white_list_summary">Aplikacje z wyjątków nie będą sprawdzane</string>
     <string name="delete_from_manual_item_white_list">Usuń z wyjątków</string>
@@ -535,11 +535,11 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="title_flow_purchase">Time to top up!</string>
     <string name="summary_flow_purchase_left">You only have %sMB of mobile data remaining this month. Top up now to avoid additional charges from your carrier.</string>
     <string name="summary_flow_purchase_beyond">"You've exceeded your carrier plan's data limit by %sMB. Top up now to avoid additional charges from your carrier."</string>
-    <string name="title_show_notification">Pokazywanie na pasku powiadomień wyłączone</string>
+    <string name="title_show_notification">Skróty do panelu sterowania</string>
     <string name="summary_show_notification">Pokaż skróty do Panelu sterowania na pasku powiadomień</string>
     <string name="title_garbage_lib">Autom. aktualizacje są wyłączone</string>
     <string name="summary_garbage_lib">Włącz aktualizacje modułu Czyszczenie by pobierać najświeższe definicje wirusów, adware i spyware</string>
-    <string name="title_permission_root">Ostrzeżenia o ROOT</string>
+    <string name="title_permission_root">Dostęp do ROOT</string>
     <string name="summary_permission_root">Telefon z dostępem do root może być podatny na szkodliwe modyfikacje systemu</string>
     <string name="title_app_update">Dostępne aktualizacje</string>
     <string name="title_miui_update">Dostępna aktualizacja</string>
@@ -563,7 +563,7 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="pref_title_lock_screen_memory_clean">Po zablokowaniu</string>
     <string name="pref_summary_lock_screen_memory_clean">Czyść śmieci po zablokowaniu ekranu</string>
     <string name="title_default_app">MIUI %s nie jest domyślna</string>
-    <string name="summary_default_app">%s nie jest aplikacją systemową</string>
+    <string name="summary_default_app">%s nie jest domyślną aplikacją</string>
     <string name="toast_default_app">%1$s ustawiona jako domyślna %2$s</string>
     <string name="notification_title_cmcc_app_check">%d dni od ostatniego czyszczenia</string>
     <string name="notification_summary_cmcc_app_check">Pokaż szczegóły.</string>
@@ -572,4 +572,5 @@ Dodanie aplikacji do Autostartu pomaga w sytuacjach gdy widżet się nie aktuali
     <string name="cmcc_app_check_dialog_message">Uruchom ponownie urządzenie by zakończyć naprawy</string>
     <string name="cmcc_app_check_dialog_positive">Teraz</string>
     <string name="cmcc_app_check_dialog_negative">Później</string>
+    <string name="app_not_installed_toast">Aplikacja nie jest zainstalowana.</string>
 </resources>

@@ -775,6 +775,7 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="media_error_nomemory">Pamięć urządzenia jest pełna</string>
     <string name="media_error_action_refresh">Odśwież</string>
     <string name="media_error_action_replace_video_source">Replace Video Source</string>
+    <string name="video_buffering_percent_string">Buforowanie</string>
     <string name="webapp_app_name">Light Web Apps Store</string>
     <string name="webapp_dialog_title">Add the app to your desktop</string>
     <string name="webapp_add_to_desktop">Dodaj na pulpit</string>

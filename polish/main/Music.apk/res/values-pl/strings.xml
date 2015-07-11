@@ -28,7 +28,7 @@
     <string name="error_forbidden">Synchr. wyłączona: problem z kontem</string>
     <string name="error_not_acceptable">Synchronizacja wyłączona</string>
     <string name="impunity_declaration_title">Warunki Użytkowania</string>
-    <string name="impunity_declaration">Muzykę Online dostarcza Baidu Online Music. Potwierdzając zgadzasz się na warunki korzystania z Baidu Music</string>
+    <string name="impunity_declaration">Aplikacja wymaga dostępu do sieci by pobierać utwory online lub streamować muzykę</string>
     <string name="impunity_declaration_ignore">Nie pokazuj ponownie</string>
     <string name="impunity_declaration_settings">Pokaż Warunki Użytkowania</string>
     <string name="impunity_declaration_summary">Pokazuj informację o warunkach korzystania z Baidu Online Music podczas uruchamiania aplikacji</string>
@@ -313,4 +313,7 @@
     <string name="upgrade_waringing">"You'll only be able to listen to music stored offline."</string>
     <string name="upgrade_immediate">Update now</string>
     <string name="i_know_it">OK</string>
+    <string name="atmd_music">Ultimate</string>
+    <string name="atmd_copyright_info" />
+    <string name="atmd_tel" />
 </resources>

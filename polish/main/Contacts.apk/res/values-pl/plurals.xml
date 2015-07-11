@@ -106,12 +106,12 @@
         <item quantity="one">- %1$d -</item>
     </plurals>
     <plurals name="dlg_add_blacklist">
-        <item quantity="other">Zablokować %1$d numerów?</item>
-        <item quantity="one">Zablokować ten numer?</item>
+        <item quantity="other">Zablokować %1$d numerów telefonu?</item>
+        <item quantity="one">Zablokować ten numer telefonu?</item>
     </plurals>
     <plurals name="dlg_remove_blacklist">
-        <item quantity="other">Odblokować %1$d numerów?</item>
-        <item quantity="one">Odblokować ten numer?</item>
+        <item quantity="other">Odblokować %1$d numerów telefonu?</item>
+        <item quantity="one">Odblokować ten numer telefonu?</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">%d dzwonków</item>

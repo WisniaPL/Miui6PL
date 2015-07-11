@@ -282,7 +282,6 @@
     <string name="face_beauty_age_alias_female_60_m">Kobieta 60+</string>
     <string name="simple_mode_button_text_face_beauty">Zamknij ulepszanie twarzy</string>
     <string name="pref_face_beauty_title">Odcień skóry</string>
-    <string name="toast_cannot_preview_image_when_screen_locked">Nie można wyświetlić podglądu zdjęcia przy zablokowanym ekranie.</string>
     <string name="pref_priority_storage_title">Priorytet zapisu na SD</string>
     <string name="setting_top_text">Opcje</string>
     <string name="pref_video_speed_fast_title">Time-Lapse</string>
@@ -308,7 +307,7 @@
     <string name="accessibility_panorama_review_cancel">Anuluj zapisywanie panoramy</string>
     <string name="simple_mode_button_text_manual">Zamknij Ręczny</string>
     <string name="pref_qc_focus_position_title">Ostrość</string>
-    <string name="pref_front_mirror_entry_auto">Auto</string>
+    <string name="pref_front_mirror_entry_auto">Gdy wykryto twarz</string>
     <string name="pref_front_mirror_entry_on">Wł</string>
     <string name="pref_front_mirror_entry_off">Wył</string>
     <string name="pref_burst_shoot_title">Seryjne</string>
@@ -326,7 +325,7 @@
     <string name="pref_camera_long_pressing_burst_shooting_entry_burst">Zdjęcia seryjne</string>
     <string name="pref_camera_hdr_entry_auto">Auto</string>
     <string name="pref_camera_hdr_entry_off">Wył</string>
-    <string name="pref_camera_hdr_entry_normal">Normalnie</string>
+    <string name="pref_camera_hdr_entry_normal">Pro</string>
     <string name="pref_camera_hdr_entry_live">Żywy</string>
     <string name="pref_simple_hdr_entry_off">Wył</string>
     <string name="pref_simple_hdr_entry_on">Wł</string>
@@ -352,4 +351,5 @@
     <string name="save">Zapisz</string>
     <string name="simple_mode_button_text_audio_capture">Zamknij rejestrator dźwięku</string>
     <string name="simple_mode_button_text_countdown">Zamknij samowyzwalacz</string>
+    <string name="toast_cannot_preview_image_when_screen_locked">Nie można wyświetlić podglądu zdjęcia przy zablokowanym ekranie.</string>
 </resources>

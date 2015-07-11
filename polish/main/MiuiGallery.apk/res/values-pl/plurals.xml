@@ -55,8 +55,8 @@
         <item quantity="one">Katalogów: %d</item>
     </plurals>
     <plurals name="message_no_delete_access_with_count">
-        <item quantity="other">Nie masz uprawnień do usunięcia %d plików.</item>
-        <item quantity="one">Nie masz uprawnień do usunięcia %d pliku.</item>
+        <item quantity="other">Nie masz uprawnień do usunięcia %d plików</item>
+        <item quantity="one">Nie masz uprawnień do usunięcia %d pliku</item>
     </plurals>
     <plurals name="pick_with_limited_upper_bound_title">
         <item quantity="other">Możesz zaznaczyć %d elementów</item>
@@ -73,7 +73,7 @@
         <item quantity="one">%1$d element</item>
     </plurals>
     <plurals name="more_face">
-        <item quantity="other">%1$s twarzy może należeć do %2$s >></item>
-        <item quantity="one">%1$s nowa twarz może należeć do %2$s >></item>
+        <item quantity="other">%1$s z %2$s</item>
+        <item quantity="one">%1$s z %2$s</item>
     </plurals>
 </resources>

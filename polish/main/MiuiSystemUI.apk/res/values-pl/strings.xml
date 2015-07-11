@@ -110,6 +110,9 @@ w dół by zablokować"</string>
     <string name="user_guide_for_notification">Nowe powiadomienie, możesz przeciągnąć w dół pasek statusu, aby zobaczyć szczegóły</string>
     <string name="user_guide_for_toggle">Lista przełączników może być przesuwana w poziomie</string>
     <string name="user_guide_for_toggle_list">Kliknij by ustawić własne przełączniki</string>
+    <string name="activate_usb_title">Podłącz USB</string>
+    <string name="activate_usb_message">Włóż SIM by aktywować funkcję USB</string>
+    <string name="usb_function_charging_text">Podłączony do ładowania</string>
     <string name="return_to_incall_screen">Powróć do połączenia</string>
     <string name="call_status_dialing">Połączenie</string>
     <string name="call_status_ringing">Połączenie</string>
@@ -172,6 +175,9 @@ w dół by zablokować"</string>
     <string name="status_bar_network_flow_limit">" | Limit: %1$s"</string>
     <string name="drive_mode_tip">Jesteś w trybie samochodowym. Prowadź ostrożnie podczas korzystania z telefonu.</string>
     <string name="no_notification_tips">Brak powiadomień</string>
+    <string name="expanded_notification_manager">Opcje</string>
+    <string name="disable_notification_title">Wyłącz powiadomienia</string>
+    <string name="disable_notification_summary">Nie pokazuj powiadomień z tej aplikacji</string>
     <string name="notification_otg_mouse_in">Myszka podłączona</string>
     <string name="notification_otg_keyboard_in">Klawiatura podłączona</string>
     <string name="notification_otg_gamestick_in">Podłączony pad</string>
@@ -203,6 +209,7 @@ w dół by zablokować"</string>
     <string name="usb_share_net_info">Udostępnij Internet z PC</string>
     <string name="hint_for_long_press_app_switch_key">Naciśnij długo by pokazać menu</string>
     <string name="battery_profiles">Profile baterii</string>
+    <string name="notification_template_text">" ma powiadomienie. Dotknij by pokazać."</string>
     <string name="audio_effect_settings">Ustaw typ słuchawek</string>
     <string name="audio_effect_info">Efekty dźwięku</string>
     <string name="audio_effect_custom">Własne</string>

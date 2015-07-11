@@ -36,6 +36,7 @@
     <string name="music_dirac_mode_piston_1">Mi Piston v1</string>
     <string name="music_dirac_mode_piston_2">Mi Piston v2</string>
     <string name="music_dirac_mode_piston_basic">Mi Piston Basic</string>
+    <string name="music_dirac_mode_piston_standard">Mi Piston v3</string>
     <string name="music_audio_effect_settings">Efekty dźwiękowe</string>
     <string name="music_equalizer">Equalizer</string>
     <string name="music_equalizer_summary">Dostosuj korekty dźwięku dla różnych typów muzyki</string>
@@ -50,13 +51,8 @@
     <string name="audio_list_loading">Wczytywanie…</string>
     <string name="title_local_resource">Lokalne zasoby</string>
     <string name="online_resource_entry">W sieci</string>
-    <string name="status_bar_style_settings">Powiadomienia</string>
     <string name="status_bar_and_notification_bar">Pasek powiadomień i statusu</string>
-    <string name="status_bar_settings_toggle_layout_style">Styl przełączników</string>
-    <string name="status_bar_settings_toggle_layout_style_compact">Przewijane</string>
-    <string name="status_bar_settings_toggle_layout_style_single_page">Siatka</string>
-    <string name="status_bar_settings_toggle_layout_style_applying">Zmiana stylu…</string>
-    <string name="status_bar_settings_custom_notification">Powiadomienia aplikacji</string>
+    <string name="status_bar_settings_manage_notification">Powiadomienia aplikacji</string>
     <string name="status_bar_settings_all_app_display_loading">Wczytywanie listy aplikacji…</string>
     <string name="status_bar_settings_enable_notification">Pokaż powiadomienia</string>
     <string name="status_bar_settings_show_home_message">Pokaż ikonę na pasku</string>
@@ -162,9 +158,9 @@
     <string name="battery_info_screen_on">Czas włączenia ekranu:</string>
     <string name="battery_info_status_unknown">Nieznane</string>
     <string name="battery_info_status_charging">Ładowanie</string>
-    <string name="battery_info_status_charging_ac">zasilaczem</string>
-    <string name="battery_info_status_charging_usb">przez USB</string>
-    <string name="battery_info_status_charging_wireless">bezprzewodowe</string>
+    <string name="battery_info_status_charging_ac">Ładowanie zasilaczem</string>
+    <string name="battery_info_status_charging_usb">Ładowanie przez USB</string>
+    <string name="battery_info_status_charging_wireless">Ładowanie bezprzewodowe</string>
     <string name="battery_info_status_discharging">Niepodłączony</string>
     <string name="battery_info_status_not_charging">Niepodłączony</string>
     <string name="battery_info_status_full">Pełna</string>
@@ -409,7 +405,7 @@ Aby dalej używać urządzenia, musisz przywrócić dane fabryczne. Podczas konf
     <string name="crypt_keeper_switch_input_method">Przełącz metodę wprowadzania</string>
     <string name="lock_settings_picker_title">Wybierz blokadę ekranu</string>
     <string name="backup_lock_settings_picker_title">Wybierz blokadę zapasową</string>
-    <string name="unlock_set_unlock_launch_picker_title">Blokada ekranu</string>
+    <string name="unlock_set_unlock_launch_picker_title">Zabezpieczenia ekranu</string>
     <string name="unlock_set_unlock_launch_picker_change_title">Zmień blokadę ekranu</string>
     <string name="unlock_set_unlock_launch_picker_change_summary">Zmień lub wyłącz zabezpieczenie ekranu (wzór, PIN lub hasło)</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary">Wybierz sposób blokowania ekranu</string>
@@ -423,9 +419,9 @@ Aby dalej używać urządzenia, musisz przywrócić dane fabryczne. Podczas konf
     <string name="unlock_set_unlock_pattern_title">Wzór</string>
     <string name="unlock_set_unlock_pattern_summary">Połącz co najmniej 4 kropki</string>
     <string name="unlock_set_unlock_pin_title">Kod PIN</string>
-    <string name="unlock_set_unlock_pin_summary">4 cyfrowy kod PIN</string>
+    <string name="unlock_set_unlock_pin_summary">Min 4 cyfrowy kod PIN</string>
     <string name="unlock_set_unlock_password_title">Hasło</string>
-    <string name="unlock_set_unlock_password_summary">Litery i cyfry</string>
+    <string name="unlock_set_unlock_password_summary">Min 4 cyfry lub litery</string>
     <string name="unlock_set_unlock_disabled_summary">Wyłączone przez administratora lub ze względu na zasady szyfrowania albo magazyn danych logowania</string>
     <string name="unlock_set_unlock_mode_off">Brak</string>
     <string name="unlock_set_unlock_mode_none">Przesunięcie palcem</string>
@@ -859,7 +855,7 @@ Zabezpieczenia: %2$s"</string>
     <string name="firmware_version">Wersja Android</string>
     <string name="model_number">Numer modelu</string>
     <string name="fcc_equipment_id">Identyfikator sprzętu</string>
-    <string name="baseband_version">Wersja pasma podstawowego</string>
+    <string name="baseband_version">Modem</string>
     <string name="kernel_version">Wersja jądra</string>
     <string name="build_number">Baza Android</string>
     <string name="selinux_status">Stan SELinux</string>
@@ -1039,7 +1035,7 @@ Tej czynności nie można cofnąć."</string>
     <string name="manage_mobile_plan_title">Taryfa komórkowa</string>
     <string name="sms_application_title">Domyślna aplikacja do SMS-ów</string>
     <string name="sms_change_default_dialog_title">Zmienić aplikację do SMS-ów?</string>
-    <string name="sms_change_default_dialog_text" formatted="false">Używać %s zamiast %s jako aplikacji do SMS-ów?</string>
+    <string name="sms_change_default_dialog_text">Używać %1$s zamiast %2$s jako aplikacji do SMS-ów?</string>
     <string name="sms_change_default_no_previous_dialog_text">Użyć %s jako aplikacji do SMS-ów?</string>
     <string name="mobile_unknown_sim_operator">Nieznany operator karty SIM</string>
     <string name="mobile_no_provisioning_url">Sieć %1$s nie obsługuje tej funkcji</string>
@@ -1690,7 +1686,7 @@ Jeśli z tego urządzenia korzysta kilka osób, użycie tego skrótu na zablokow
     <string name="credentials_unlock_hint">Podaj hasło do magazynu danych logowania.</string>
     <string name="credentials_old_password">Bieżące hasło:</string>
     <string name="credentials_reset_hint">Usunąć całą zawartość?</string>
-    <string name="credentials_password_too_short">Hasło musi mieć co najmniej 8 znaków.</string>
+    <string name="credentials_password_too_short">Co najmniej 8 znaków</string>
     <string name="credentials_wrong_password">Nieprawidłowe hasło.</string>
     <string name="credentials_reset_warning">Nieprawidłowe hasło. Pozostała jedna próba przed wyczyszczeniem magazynu danych logowania.</string>
     <string name="credentials_reset_warning_plural">Nieprawidłowe hasło. Pozostała liczba prób przed wyczyszczeniem magazynu danych logowania: %1$d.</string>
@@ -1872,7 +1868,7 @@ Synchronizacja jest wyłączona"</string>
     <string name="data_usage_menu_split_4g">Oddzielnie transmisja danych 4G</string>
     <string name="data_usage_menu_show_wifi">Pokaż wykorzystanie Wi-Fi</string>
     <string name="data_usage_menu_show_ethernet">Pokaż użycie sieci Ethernet</string>
-    <string name="data_usage_menu_metered">Hotspoty komórkowe</string>
+    <string name="data_usage_menu_metered">Hotspot komórkowy</string>
     <string name="data_usage_menu_auto_sync">Autosynchronizacja danych</string>
     <string name="data_usage_change_cycle">Zmień cykl</string>
     <string name="data_usage_pick_cycle_day">Resetowanie cyklu transmisji danych – dzień miesiąca:</string>
@@ -1908,7 +1904,6 @@ Szczegółowe ustawienia transmisji danych są zwykle dostępne bezpośrednio w 
     <string name="data_usage_auto_sync_on_dialog">"Wszystkie zmiany, które wprowadzisz na swoich kontach w sieci, będą automatycznie kopiowane na Twój urządzenie.
 
 Niektóre konta mogą też kopiować do sieci wszystkie zmiany, które wprowadzisz na tablecie. W ten sposób działa konto Google.
-
 Aby wybrać informacje synchronizowane przez poszczególne konta, wyświetl Ustawienia > Konta."</string>
     <string name="data_usage_auto_sync_off_dialog_title">Wyłączyć autosynchronizację?</string>
     <string name="data_usage_auto_sync_off_dialog">Powoduje przesyłanie mniejszej ilości danych oraz zmniejsza użycie baterii, ale pobranie najnowszych informacji będzie wymagało ręcznej synchronizacji każdego konta. Poza tym nie będziesz otrzymywać powiadomień o aktualizacjach.</string>
@@ -1935,7 +1930,7 @@ Ustawienie dotyczy wszystkich użytkowników tego urządzenia."</string>
     <string name="data_usage_received_sent">Odebrano: %1$s, wysłano: %2$s</string>
     <string name="data_usage_total_during_range">%2$s: wykorzystane %1$s</string>
     <string name="data_usage_total_during_range_mobile">%2$s: wykorzystane %1$s wg licznika w telefonie. Rozliczenie operatora może się różnić.</string>
-    <string name="data_usage_metered_title">Hotspoty komórkowe</string>
+    <string name="data_usage_metered_title">Hotspot komórkowy</string>
     <string name="data_usage_metered_body">Wybierz sieci Wi-Fi, które są hotspotami komórkowymi. Możesz ograniczyć aplikacjom działającym w tle dostęp do tych sieci. Aplikacje mogą też ostrzegać, zanim użyją tych sieci do pobrania dużych ilości danych.</string>
     <string name="data_usage_metered_mobile">Sieci komórkowe</string>
     <string name="data_usage_metered_wifi">Sieci Wi-Fi</string>
@@ -2103,6 +2098,7 @@ Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imie
     <string name="config_mtp_function_name">mtp</string>
     <string name="config_ptp_function_name">ptp</string>
     <string name="config_mass_storage_function_name">mass_storage</string>
+    <string name="config_charging_function_name">ładowanie</string>
     <string name="wifi_type_approval" />
     <string name="do_not_disturb_mode">Godziny ciszy</string>
     <string name="dndm_notification">Godziny ciszy włączone</string>
@@ -2121,12 +2117,12 @@ Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imie
     <string name="dndm_menu_add_vip_custom">Dodaj wyjątek</string>
     <string name="dndm_mute_all">Dźwięki połączeń i SMS wyciszone</string>
     <string name="dndm_special_call_setting_group">Opcje dodatkowe</string>
-    <string name="dndm_vip_call_setting_title">Rób wyjątki</string>
+    <string name="dndm_vip_call_setting_title">Wyjątki</string>
     <string name="dndm_vip_call_summary_none">Połączenia przychodzące dla wszystkich kontaktów będą wyciszane</string>
     <string name="dndm_vip_call_summary_custom">Połączenia przychodzące od %d kontaktów nie będą wyciszane</string>
     <string name="dndm_vip_call_summary_contact">Połączenia przychodzące dla wszystkich kontaktów nie będą wyciszane</string>
     <string name="dndm_vip_call_button_title">Rób wyjątki dla kontaktów</string>
-    <string name="dndm_vip_list_group">Lista wyjątków</string>
+    <string name="dndm_vip_list_group">Kontakty z listy wyjątków</string>
     <string name="dndm_vip_list_custom">Wyjątki</string>
     <string name="dndm_vip_list_contact">Wszystkie kontakty</string>
     <string name="dndm_vip_list_custom_group">Wyjątki</string>
@@ -2154,7 +2150,7 @@ Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imie
     <string name="search_access_control">Prywatny</string>
     <string name="search_gps">GPS</string>
     <string name="search_status_bar">pasek statusu</string>
-    <string name="search_sync">Sync</string>
+    <string name="search_sync">Synchronizacja</string>
     <string name="search_battery_indicator">Wskaźnik baterii</string>
     <string name="search_key">key</string>
     <string name="search_led">LED</string>
@@ -2170,7 +2166,7 @@ Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imie
     <string name="search_storage">Magazyn danych</string>
     <string name="search_accessibility">Dostępność</string>
     <string name="search_privacy">Poufny</string>
-    <string name="debug_log">Rejestr debugowania</string>
+    <string name="debug_log">Debugowanie i lokalizacja</string>
     <string name="upload_debug_log_title">Prześlij rejestr debugowania</string>
     <string name="upload_debug_log_summary">Pokaż przycisk Raport MIUI dla każdego FC</string>
     <string name="device_miui_version">Wersja MIUI</string>
@@ -2193,7 +2189,7 @@ Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imie
     <string name="sms_delivered_sound_title">Dźwięk dostarczenia SMS</string>
     <string name="sms_received_sound_dialog_title">Wybierz dźwięk otrzymania SMS</string>
     <string name="sms_delivered_sound_dialog_title">Wybierz dźwięk dostarczenia SMS</string>
-    <string name="ringtone_uniform_setting_title">Pojedynczy dzwonek dla dual SIM</string>
+    <string name="ringtone_uniform_setting_title">Wspólny dźwięk</string>
     <string name="ringtone_slot_setting_title">Dzwonek dla SIM</string>
     <string name="haptic_feedback_level">Siła wibracji</string>
     <string name="privacy_protect_title">Ochrona prywatności</string>
@@ -2306,9 +2302,9 @@ Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imie
     <string name="manually_add_network">Dodawanie sieci</string>
     <string name="network_detail">Szczegóły sieci: %s</string>
     <string name="connected_wifi">Połączony z Wi-Fi</string>
-    <string name="incoming_call_breathing_light_color_title">Kolor LED dla połączeń</string>
-    <string name="notification_breathing_light_color_title">Kolor LED dla powiadomień</string>
-    <string name="mms_breathing_light_color_title">Kolor LED dla SMS/MMS</string>
+    <string name="incoming_call_breathing_light_color_title">Połączenia przychodzące</string>
+    <string name="notification_breathing_light_color_title">Powiadomienia aplikacji</string>
+    <string name="mms_breathing_light_color_title">Wiadomości SMS/MMS</string>
     <string name="breathing_light_color_menu_title">Kolor diody</string>
     <string name="breathing_light_color_summary">Kolor diody gdy otrzymano nowe powiadomienie</string>
     <string name="breathing_light_freq_title">" - Częstość pulsowania LED"</string>
@@ -2410,6 +2406,8 @@ Tej czynności nie można cofnąć."</string>
     <string name="system_storage">Nośnik wewnętrzny</string>
     <string name="usage_log">Statystyki użycia aplikacji</string>
     <string name="bluetooth_device_searchable">Urządzenie widoczne</string>
+    <string name="usb_charging_title">Szybkie ładowanie</string>
+    <string name="usb_charging_summary">Wyłącz wszelkie funkcje USB aby przyspieszyć ładowanie.</string>
     <string name="usb_msd_title">Magazyn danych USB</string>
     <string name="usb_msd_summary">Przesył plików dla Windows i MacOS</string>
     <string name="usb_msd_driver_installer_title">Instalator sterowników (MSD)</string>
@@ -2509,10 +2507,13 @@ Tej czynności nie można cofnąć."</string>
     <string name="wfd_disconnect_multiple_diag_message">Jeśli przerwiesz sesję Wi-Fi Display, twoje połączenie z %1$s i %2$s zostanie zakończone.</string>
     <string name="wfd_wps_keypad">Przycisk</string>
     <string name="wfd_wps_pbc">Wpisz PIN</string>
+    <string name="virtual_sim_category_title">Wirtualny operator</string>
+    <string name="virtual_sim_title">Przesył danych w roamingu</string>
+    <string name="virtual_sim_description">Usługi roamingu danych</string>
     <string name="power_mode">Profil wydajności</string>
     <string name="high_performance_title">Wybierz plan zasilania \"Wydajny\"</string>
     <string name="high_performance_notif_title">Wysoka wydajność</string>
-    <string name="high_performance_notif_summary">Zwiększone użycie baterii na aktualnym profilu</string>
+    <string name="high_performance_notif_summary">Zwiększone użycie baterii. Na tym profilu zostają wyłączone wszelkie ograniczenia temperaturowe i zniesione limity użycia baterii, pozwalając urządzeniu pracować z maksymalną wydajnością. Urządzenie może mocniej się nagrzewać, a użycie baterii wzrosnąć.</string>
     <string name="skip_step">Pomiń krok</string>
     <string name="msd_help_title">Pomoc</string>
     <string name="msd_help_summary">Problemy z podłączeniem pamięci wewnętrznej urządzenia do PC? Wybierz swój system operacyjny:</string>
@@ -2646,14 +2647,6 @@ Na pewno wyłączyć?"</string>
     <string name="internal_media_format_title">Wyczyść wewnętrzny nośnik USB</string>
     <string name="internal_format">Wyczyść wewnętrzny nośnik USB</string>
     <string name="internal_format_summary">Wymazanie wewnętrznego nośnik USB usunie wszystkie pliki, w tym muzykę i zdjęcia</string>
-    <string name="bugreport_tool_log_toast_generate_bugreport">Generowanie raportu...</string>
-    <string name="bugreport_tool_log_toast">Log zapisany do %s</string>
-    <string name="bugreport_tool_log">Zapisz raport błędu</string>
-    <string name="modem_tool_log">Zapisz rejestr modemu</string>
-    <string name="modem_tool_log_start">Zapisywanie</string>
-    <string name="modem_tool_log_stop">Zatrzymaj</string>
-    <string name="modem_tool_log_start_toast">Rejestr modemu zapisany do %s</string>
-    <string name="modem_tool_log_stop_toast">Zatrzymano zapis do %s</string>
     <string name="wifi_tether_setting_title">Ustawienia</string>
     <string name="audio_profile_settings_title">Profile dźwięku</string>
     <string name="enable_wifi_display">Włącz Wi-Fi Display</string>
@@ -2767,9 +2760,9 @@ Na pewno wyłączyć?"</string>
     <string name="xiaomi_router_notif_summary">Powiadom mnie jeśli router Xiaomi jest widoczny</string>
     <string name="xiaomi_router_available_notif_title">Dostępny jest Xiaomi router</string>
     <string name="xiaomi_router_available_notif_summary">Pokaż zawartość</string>
-    <string name="restrict_background_data_title">Ogranicz dane w tle</string>
-    <string name="restrict_background_data_dialog_summary">Aplikacje działające w tle nie mogą odbierać wiadomości</string>
-    <string name="restrict_background_data_notification_summary">"Aplikacje nie mogą połączyć się z siecią, jeśli dane w tle są ograniczone"</string>
+    <string name="restrict_background_data_title">Restrict background data</string>
+    <string name="restrict_background_data_dialog_summary">Apps running in the background can’t receive messages</string>
+    <string name="restrict_background_data_notification_summary">"Apps can't connect to network if background data is restricted"</string>
     <string name="accessibility_screen_magnification_enable">Gesty powiększania</string>
     <string name="miui_screensaver_state_on">Wł</string>
     <string name="miui_screensaver_state_off">Wył</string>
@@ -2848,9 +2841,15 @@ Na pewno wyłączyć?"</string>
     <string name="other_advanced_settings">Urządzenie</string>
     <string name="recent_location_requests_title">Dostęp do lokalizacji</string>
     <string name="recent_location_requests_summary">Aplikacje z listy mają dostęp do lokalizacji</string>
+    <string name="background_location_requests_title">Lokalizacja w tle</string>
+    <string name="background_location_requests_summary">Zezwól aplikacjom na uzyskiwanie lokalizacji w tle</string>
+    <string name="background_location_control_title">Dostęp do lokalizacji w tle</string>
+    <string name="background_location_control_summary">Określ dostęp do lokalizacji w tle aplikacjom z listy</string>
+    <string name="background_location_select_apps">Wybierz wszystko</string>
+    <string name="background_location_deselect_apps">Odznacz wszystko</string>
     <string name="permission_manager">Uprawnienia</string>
     <string name="security_keyguard_category_name">Blokada</string>
-    <string name="security_password_category_name">Hasło</string>
+    <string name="security_password_category_name">Ekran blokady</string>
     <string name="device_security_settings_title">Zabezpieczenia</string>
     <string name="enable_crypt_keeper_encrypt">Włącz szyfrowanie</string>
     <string name="bluetooth_unlock_title">Odblokuj przez Bluetooth</string>
@@ -2998,8 +2997,11 @@ Na pewno wyłączyć?"</string>
     <string name="lock_screen_secure_after_timeout_title">Wymagane hasło</string>
     <string name="lock_screen_secure_after_timeout_summary">Wymagaj hasła %1$s od blokady</string>
     <string name="lock_screen_secure_after_timeout_immediately_summary">Wymagaj hasła natychmiast po zablokowaniu</string>
-    <string name="sim_pin_enabled">PIN1 Enabled!</string>
-    <string name="sim_pin_disabled">PIN1 Disabled!</string>
+    <string name="choose_smartcover_type">Rodzaj pokrowca</string>
+    <string name="normal_smartcover_title">Bez okienka</string>
+    <string name="smallwindow_smartcover_title">Z okienkiem</string>
+    <string name="sim_pin_enabled">PIN1 włączony!</string>
+    <string name="sim_pin_disabled">PIN1 wyłączony!</string>
     <string name="Accounts_settings_title">Konta</string>
     <string name="access_point_names">Nazwy punktów dostępu</string>
     <string name="accessibility_display_daltonizer_preference_subtitle">To jest funkcja eksperymentalna i może wpływać na wydajność.</string>
@@ -3085,6 +3087,7 @@ Na pewno wyłączyć?"</string>
     <string name="call_manager_title">Menedżer połączeń</string>
     <string name="calls_title">Połączenia</string>
     <string name="cancel_all_caps">ANULUJ</string>
+    <string name="captioning_foreground_opacity">Tło tekstu</string>
     <string name="captioning_window_color">Kolor okna napisów</string>
     <string name="captioning_window_opacity">Przezroczystość okna napisów</string>
     <string name="category_personal">Osobiste</string>
@@ -3155,6 +3158,7 @@ Na pewno wyłączyć?"</string>
     <string name="dlg_confirm_usb_unmount_title">Odłączyć nośnik USB?</string>
     <string name="dlg_error_uicc_unmount_text">Nie można odłączyć nośnika UICC. Spróbuj ponownie później.</string>
     <string name="dlg_error_usb_unmount_text">Nie można odłączyć nośnika USB. Spróbuj ponownie później.</string>
+    <string name="dndm_vip_user_setting_title">Lista wyjątków</string>
     <string name="dock_audio_media_disabled">Wszystkie dźwięki</string>
     <string name="dock_audio_media_enabled">Tylko dźwięk multimediów</string>
     <string name="dock_audio_media_title">Głośnik w doku odtwarza</string>
@@ -3272,6 +3276,7 @@ Na pewno wyłączyć?"</string>
     <string name="master_clear_not_available">Przywracanie ustawień fabrycznych nie jest dostępne dla tego użytkownika</string>
     <string name="master_clear_progress_text">Zaczekaj...</string>
     <string name="master_clear_progress_title">Wymazuję</string>
+    <string name="max_cpu8_info">"8x "</string>
     <string name="media_category">Multimedia</string>
     <string name="media_volume_option_title">Głośność multimediów</string>
     <string name="mem_details_title">Informacje dotyczące pamięci</string>
@@ -3354,12 +3359,12 @@ Na pewno wyłączyć?"</string>
     <string name="miracast_wps_desc">WPS</string>
     <string name="miracast_wps_onstart_pbc">Naciśnij przycisk WPS na urządzeniu bezprzewodowym:</string>
     <string name="miracast_wps_setup_msg">Uruchamianie WPS…</string>
-    <string name="miui_allow_alarm">Nie wyciszaj alarmu</string>
-    <string name="miui_allow_light">Nie gaś LED</string>
-    <string name="miui_allow_music">Nie wyciszaj muzyki</string>
-    <string name="miui_allow_vibrate">Nie wyłączaj wibracji</string>
+    <string name="miui_allow_alarm">Alarmy</string>
+    <string name="miui_allow_light">Powiadomienia LED</string>
+    <string name="miui_allow_music">Muzyka</string>
+    <string name="miui_allow_vibrate">Wibracje</string>
     <string name="miui_disturb_title">Włącz Godziny ciszy</string>
-    <string name="miui_silent_title">Włącz tryb Cichy</string>
+    <string name="miui_silent_title">Wycisz</string>
     <string name="move_app_app_label">Aplikacja</string>
     <string name="move_app_data_label">Dane</string>
     <string name="move_app_dlg_text">Nie można przenieść aplikacji. %1$s</string>
@@ -3413,6 +3418,7 @@ Na pewno wyłączyć?"</string>
     <string name="power_flashlight">Latarka</string>
     <string name="power_overcounted">Obliczone z nadmiarem</string>
     <string name="power_unaccounted">Inne</string>
+    <string name="power_usage_list_summary">Od ostatniego pełnego ładowania</string>
     <string name="preferred_network_offload_footer">Wyłączenie rozgłaszania nazwy sieci uniemożliwia innym osobom uzyskanie informacji o Twojej sieci.</string>
     <string name="preferred_network_offload_header">Wyłącz rozgłaszanie nazwy sieci</string>
     <string name="preferred_network_offload_popup">Wyłączenie rozgłaszania nazwy sieci zapobiega automatycznemu łączeniu się z ukrytymi sieciami.</string>
@@ -3503,8 +3509,8 @@ Na pewno wyłączyć?"</string>
   Attempts Remaining :"</string>
     <string name="sim_pin_change_failed_enable_sim_lock">"Unable to Change SIM/RUIM PIN.
   Enable SIM/RUIM Lock."</string>
-    <string name="sim_pin_disable_failed">"Can't disable PIN."</string>
-    <string name="sim_pin_enable_failed">"Can't enable PIN."</string>
+    <string name="sim_pin_disable_failed">Nie można wyłączyć PIN</string>
+    <string name="sim_pin_enable_failed">Nie można włączyć PIN</string>
     <string name="sim_pref_divider">Działania</string>
     <string name="sim_select_card">Wybierz kartę SIM</string>
     <string name="sim_selection_required_pref">Dokonaj wyboru</string>
@@ -3516,6 +3522,13 @@ Na pewno wyłączyć?"</string>
     <string name="simulate_color_space">Symuluj przestrzeń kolorów</string>
     <string name="slot_name">SIM %d</string>
     <string name="sms_messages_title">SMS-y</string>
+    <string name="status_awaiting_tap">Tap a tag to write...</string>
+    <string name="status_bar_settings_custom_notification">Powiadomienia aplikacji</string>
+    <string name="status_bar_settings_toggle_layout_style">Styl przełączników</string>
+    <string name="status_bar_settings_toggle_layout_style_applying">Zmiana stylu…</string>
+    <string name="status_bar_settings_toggle_layout_style_compact">Przewijane</string>
+    <string name="status_bar_settings_toggle_layout_style_single_page">Siatka</string>
+    <string name="status_bar_style_settings">Powiadomienia</string>
     <string name="status_failed_to_write">Nie można zapisać danych na tagu NFC. Jeśli problem nie ustąpi, użyj innego tagu</string>
     <string name="status_invalid_password">Nieprawidłowe hasło. Spróbuj ponownie.</string>
     <string name="status_tag_not_writable">Tag NFC nie pozwala na zapis. Użyj innego tagu.</string>
@@ -3556,8 +3569,6 @@ Na pewno wyłączyć?"</string>
     <string name="usage_type_total_battery_capacity">Całkowita pojemność baterii</string>
     <string name="usb_audio_disable_routing">Wyłącz kierowanie dźwiękowe USB</string>
     <string name="usb_audio_disable_routing_summary">Wyłącz auto kierowanie do urządzeń per. audio USB</string>
-    <string name="usb_charging_summary">Lets you disable all data and file transfer connection with computer and put device in charging only mode.</string>
-    <string name="usb_charging_title">Ładowanie</string>
     <string name="usb_eject">Odłącz nośnik USB</string>
     <string name="usb_eject_summary">Odłącz bezpiecznie nośnik USB</string>
     <string name="usb_format">Wymaż nośnik USB</string>
@@ -3574,6 +3585,7 @@ Na pewno wyłączyć?"</string>
     <string name="usb_sdcard_summary">Pozwala na przenoszenie plików na kartę SD</string>
     <string name="usb_sdcard_title">Podłącz kartę SD</string>
     <string name="usb_tethering_turnon_subtext">Podłącz, by uruchomić</string>
+    <string name="usb_unmount_inform_text">Nośnik USB zostanie wysunięty</string>
     <string name="use_nuplayer">Użyj NuPlayera (eksperyment)</string>
     <string name="use_nuplayer_summary">Używaj NuPlayera zamiast AwesomePlayera</string>
     <string name="user_add_on_lockscreen_menu">Dodawaj użytkowników, gdy urządzenie jest zablokowane</string>
@@ -3601,6 +3613,7 @@ Na pewno wyłączyć?"</string>
     <string name="voice_interactor_preference_summary">Pełne słowo-klucz i interakcja</string>
     <string name="voice_recognizer_preference_summary">Prosta zamiana mowy na tekst</string>
     <string name="voice_service_preference_section_title">Usługi rozpoznawania mowy</string>
+    <string name="vpn_enable">VPN</string>
     <string name="vpn_settings_not_available">Ustawienia VPN są niedostępne dla tego użytkownika</string>
     <string name="wallpaper_attributions">Tapety</string>
     <string name="wallpaper_attributions_values">"Dostawcy zdjęć satelitarnych:
@@ -3618,6 +3631,7 @@ Na pewno wyłączyć?"</string>
     <string name="wifi_assistant_title">Asystent Wi‑Fi</string>
     <string name="wifi_assistant_title_message">%1$s automatycznie łączy urządzenie z najlepszą dostępną siecią Wi‑Fi</string>
     <string name="wifi_automatically_manage_summary">Pozwól, aby %1$s zarządzał połączeniem Wi-Fi</string>
+    <string name="wifi_automatically_manage_title">Zarządzaj Wi‑Fi automatycznie</string>
     <string name="wifi_avoid_poor_network_detection_summary">Używaj tylko sieci z dobrym połączeniem internetowym</string>
     <string name="wifi_band_24ghz">2.4GHz</string>
     <string name="wifi_band_5ghz">5GHz</string>
@@ -3647,9 +3661,10 @@ Na pewno wyłączyć?"</string>
     <string name="write_tag">Zapisz</string>
     <string name="yes_all_caps">TAK</string>
     <string name="zen_mode_alarm_info">Alarmy mają zawsze priorytet</string>
+    <string name="zen_mode_alarm_use">Wyjątki</string>
     <string name="zen_mode_automation_category">Automatyzacja</string>
     <string name="zen_mode_default_option">Dopóki nie wyłączysz</string>
-    <string name="zen_mode_downtime_category">Brak aktywności (tylko przerwy priorytetowe)</string>
+    <string name="zen_mode_downtime_category">Godziny wyciszenia</string>
     <string name="zen_mode_downtime_days">Dni</string>
     <string name="zen_mode_downtime_days_none">Brak</string>
     <string name="zen_mode_end_time">Godzina zakończenia</string>
@@ -3661,21 +3676,33 @@ Na pewno wyłączyć?"</string>
     <string name="zen_mode_from_anyone">Każdy</string>
     <string name="zen_mode_from_contacts">Tylko kontakty</string>
     <string name="zen_mode_from_starred">Tylko kontakty z gwiazdką</string>
-    <string name="zen_mode_important_category">Przerwy priorytetowe</string>
+    <string name="zen_mode_important_category">Przerwy</string>
     <string name="zen_mode_messages">Wiadomości</string>
-    <string name="zen_mode_option_important_interruptions">Zezwalaj tylko na przerwy priorytetowe</string>
-    <string name="zen_mode_option_no_interruptions">Nie przerywaj</string>
+    <string name="zen_mode_miui_disturb_category">Tryb</string>
+    <string name="zen_mode_miui_silent_category">Lista wyjątków</string>
+    <string name="zen_mode_option_important_interruptions">Zezwalaj na wyjątki</string>
+    <string name="zen_mode_option_miui_silent">Wycisz</string>
+    <string name="zen_mode_option_miui_vibrate">Zezwól na wyjątki</string>
+    <string name="zen_mode_option_no_interruptions">Nie rób wyjątków</string>
     <string name="zen_mode_option_off">Zawsze przerywaj</string>
     <string name="zen_mode_option_title">Gdy ktoś dzwoni i przychodzą powiadomienia</string>
     <string name="zen_mode_option_title_novoice">Gdy przychodzą powiadomienia</string>
     <string name="zen_mode_phone_calls">Połączenia</string>
-    <string name="zen_mode_settings_title">Przerwy</string>
+    <string name="zen_mode_settings_title">Godziny ciszy</string>
     <string name="zen_mode_start_time">Godzina rozpoczęcia</string>
     <string name="zen_mode_when">Włącz automatycznie</string>
     <string name="zen_mode_when_every_night">Każdej nocy</string>
     <string name="zen_mode_when_never">Nigdy</string>
     <string name="zen_mode_when_weeknights">Noce poza weekendem</string>
-        <string name="oldman_mode_entry_title">Tryb lekki</string>
+    <string name="bugreport_tool_log_toast_generate_bugreport">Generowanie raportu...</string>
+    <string name="bugreport_tool_log_toast">Log zapisany do %s</string>
+    <string name="bugreport_tool_log">Zapisz raport błędu</string>
+    <string name="modem_tool_log">Zapisz rejestr modemu</string>
+    <string name="modem_tool_log_start">Zapisywanie</string>
+    <string name="modem_tool_log_stop">Zatrzymaj</string>
+    <string name="modem_tool_log_start_toast">Rejestr modemu zapisany do %s</string>
+    <string name="modem_tool_log_stop_toast">Zatrzymano zapis do %s</string>
+    <string name="oldman_mode_entry_title">Tryb lekki</string>
     <string name="oldman_mode_entry_name">Tryb lekki</string>
     <string name="oldman_mode_settings_caption">Ustawienia trybu lekkiego</string>
     <string name="oldman_mode_enabled_name">Tryb lekki</string>
