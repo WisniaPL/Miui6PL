@@ -37,7 +37,7 @@
     <string name="resource_downloading">Pobieranie</string>
     <string name="resource_waiting_download">Oczekiwanie...</string>
     <string name="resource_import_successful">Pomyślnie pobrano</string>
-    <string name="resource_import_failed">Import failed</string>
+    <string name="resource_import_failed">Import nieudany</string>
     <string name="resource_delta_update_successful">Aktualizacja motywu</string>
     <string name="resource_delta_update_failed">Aktualizacja motywu nieudana! Zostanie pobrany pełny pakiet</string>
     <string name="resource_delta_update_total">Zaktualizowano: %1$d (%2$s)</string>
@@ -77,14 +77,15 @@
     <string name="resource_search_list_empty">Pusto</string>
     <string name="resource_no_network_text">"Zasoby sieci są niedostępne. 
 Płatne motywy są wyłączone"</string>
+    <string name="resource_network_diagnostics">Diagnostyka sieci</string>
     <string name="resource_list_title">Ostatnie</string>
     <string name="resource_get_auth_checking">" Autoryzacja..."</string>
     <string name="resource_get_auth_retrieving">" Autoryzacja..."</string>
-    <string name="resource_get_auth_not_official">Themes from third-party sources are not supported</string>
+    <string name="resource_get_auth_not_official">Motywy ze źródeł trzecich nie są wspierane</string>
     <string name="resource_get_auth_exceed_max_limit_title">Authorized exceeds the limit</string>
     <string name="resource_get_auth_exceed_max_limit_tips">Theme can not run on the current equipment with your account which is up to 10 mobile devices every year. Please try other Xiaomi accounts.</string>
     <string name="resource_server_out_of_service">Usługa niedostępna. Spróbuj ponownie później.</string>
-    <string name="resource_get_auth_has_been_undercarriaged">This theme is no longer available.</string>
+    <string name="resource_get_auth_has_been_undercarriaged">Motyw nie jest już dostępny</string>
     <string name="resource_pack_get_auth_has_been_undercarriaged">Ten motyw nie jest już dostępny</string>
     <string name="resource_server_alert_dialog_title">Usługa niedostępna</string>
     <string name="resource_purchase_getting_order">Przetwarzanie zamówienia…</string>
@@ -105,8 +106,11 @@ Płatne motywy są wyłączone"</string>
     <string name="deleting">Usuwanie...</string>
     <string name="resource_title_select_ringtone">Wybierz dzwonek</string>
     <string name="resource_tip_select_none">Nie wybrano</string>
-    <string name="resource_select_ringtone_confirm">Zastosować ten dźwięk?</string>
-    <string name="resource_select_ringtone_confirm_picker">Zastosować ten dźwięk?</string>
+    <string name="resource_select_ringtone_audio_confirm">Wybrać ten dzwonek?</string>
+    <string name="resource_select_notification_audio_confirm">Wybrać ten dźwięk alarmu?</string>
+    <string name="resource_select_alarm_audio_confirm">Wybrać ten dźwięk powiadomienia?</string>
+    <string name="resource_select_boot_audio_confirm">Wybrać ten dźwięk uruchamiania?</string>
+    <string name="resource_select_audio_confirm_picker">Wybrać ten dźwięk?</string>
     <string name="loading_resource_detail_info">Ładowanie ...</string>
     <string name="loading_resource_detail_fail">Nie udało się wczytać zasobu!</string>
     <string name="resource_expand_full_text">Rozwiń</string>
@@ -182,8 +186,8 @@ Płatne motywy są wyłączone"</string>
     <string name="resource_user_know">OK</string>
     <string name="resource_hint">Wiadomość</string>
     <string name="resource_ringtone_volume_mute">Dzwonek jest obecnie wyciszony.</string>
-    <string name="resource_has_been_downloaded">"You've already downloaded this theme."</string>
-    <string name="resource_no_match_app">No app was found to handle this action.</string>
+    <string name="resource_has_been_downloaded">Motyw został pomyślnie pobrany</string>
+    <string name="resource_no_match_app">Brak aplikacji do zakończenia tej akcji.</string>
     <string name="resource_title_rank">Top</string>
     <string name="resource_title_category">Kategorie</string>
     <string name="resource_title_subject">Wybrane</string>
@@ -192,6 +196,19 @@ Płatne motywy są wyłączone"</string>
     <string name="resource_download_notification_title_one">Motyw został pobrany!</string>
     <string name="resource_download_notification_title_many">Pobrano %1$s motywów!</string>
     <string name="resource_tab_to_view">Dotknij</string>
+    <string name="resource_search_color">Wybierz kolor motywu do wyszukania</string>
+    <string name="resource_search_color_hint_red">Czerwony</string>
+    <string name="resource_search_color_hint_blue">Niebieski</string>
+    <string name="resource_search_color_hint_cyan">Cyan</string>
+    <string name="resource_search_color_hint_gray">Błękitny</string>
+    <string name="resource_search_color_hint_green">Zielony</string>
+    <string name="resource_search_color_hint_brown">Brązowy</string>
+    <string name="resource_search_color_hint_orange">Pomarańczowy</string>
+    <string name="resource_search_color_hint_pink">Różowy</string>
+    <string name="resource_search_color_hint_purple">Fioletowy</string>
+    <string name="resource_search_color_hint_black">Czarny</string>
+    <string name="resource_search_color_hint_white">Biały</string>
+    <string name="resource_search_color_hint_yellow">Żółty</string>
     <string name="app_name">Motywy</string>
     <string name="theme_changing_dialog_title">Zastosowywanie zmian...</string>
     <string name="theme_changed_message">Motyw zastosowany</string>
@@ -270,6 +287,7 @@ Płatne motywy są wyłączone"</string>
     <string name="my_gifts">Moje prezenty</string>
     <string name="my_gifts_purchased">Kupione</string>
     <string name="my_gifts_received">Otrzymane</string>
+    <string name="theme_setting">Ustawienia</string>
     <string name="theme_batch_updating_text">Aktualizowanie %1$d motywów</string>
     <string name="theme_batch_update_all">Aktualizuj wszystko</string>
     <string name="theme_batch_update_dlg_title">Aktualizuj</string>
@@ -303,8 +321,8 @@ Płatne motywy są wyłączone"</string>
     <string name="theme_favorite_delete">Unstar</string>
     <string name="theme_favorite_waiting">Chwileczkę…</string>
     <string name="theme_empty_redirect">Back to Theme Store</string>
-    <string name="theme_purchased_non_local">Non-Local</string>
-    <string name="theme_purchased_list_empty">"You haven't purchased any themes."</string>
+    <string name="theme_purchased_non_local">Zakupione</string>
+    <string name="theme_purchased_list_empty">Nie kupiłeś żadnych motywów</string>
     <string name="gift_count_format">%1$s+</string>
     <string name="gift_present">Give</string>
     <string name="gift_transfer">Transfer</string>
@@ -327,7 +345,7 @@ Płatne motywy są wyłączone"</string>
     <string name="gift_present_dlg_no_fee">"You won't be charged by your carrier for sending gifts"</string>
     <string name="gift_present_dlg_anonymous">Anonymous gift</string>
     <string name="gift_present_dlg_share">Create code and share gift</string>
-    <string name="gift_present_dlg_present_max_limit">"This theme has already been gifted %$1s times (that's the limit)."</string>
+    <string name="gift_present_dlg_present_max_limit">"This theme has already been gifted %1$s times (that's the limit)."</string>
     <string name="gift_use_confirmation_dlg_title">Send this gift?</string>
     <string name="gift_use_fail_dlg_title">Coś poszło nie tak</string>
     <string name="gift_unbind_fail_dlg_title">"Couldn't create code"</string>
@@ -338,6 +356,7 @@ Płatne motywy są wyłączone"</string>
     <string name="gift_purchased_list_empty">"You haven't given any gifts. :("</string>
     <string name="gift_received_list_empty">"You haven't received any gifts."</string>
     <string name="gift_received_notification_title">Otrzymałeś motyw od %s</string>
+    <string name="vip_level_value">LV%d</string>
     <string name="basic_info">Podstawowe informacje</string>
     <string name="theme_batch_has_update_text">Aktualizacja dla %1$d motywów</string>
 </resources>

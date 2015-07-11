@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_airplane_mode">विमान</string>
+    <string name="label_silent_mode">शांत</string>
+    <string name="label_reboot">पुन्हा सुरु करा</string>
+    <string name="label_shutdown">बंद करा</string>
+    <string name="label_alert_reboot">Tap to reboot</string>
+    <string name="label_alert_shutdown">Tap to power off</string>
+    <string name="label_blank">Back</string>
+</resources>
