@@ -36,13 +36,16 @@
     <string name="mobiledata_alert_dialog_message">Połączyć z siecią w celu ustalenia wysokości?</string>
     <string name="do_not_show_next_time">Nie pokazuj ponownie</string>
     <string name="location_not_enabled_title">Włącz usługi lokalizacji</string>
-    <string name="location_not_enabled_summary">Wymagane są włączone usługi lokalizacji urządzenia do poprawnego określenia położenia.</string>
+    <string name="location_not_enabled_summary">Wymagane są usługi lokalizacji urządzenia do poprawnego określenia położenia.</string>
     <string name="location_enable">Włącz</string>
     <string name="location_enable_later">Nie teraz</string>
     <string name="location_enabled">Po kalibracji możesz wyłączyć lokalizację w ustawieniach MIUI</string>
-    <string name="using_camera_confirm_title">Warunki Użytkowania</string>
-    <string name="using_camera_confirm_message">Aplikacja Kompasu wymaga połączenia z siecią i dostępu do podglądu aparatu</string>
+    <string name="first_using_dialog_title">Warunki Użytkowania</string>
+    <string name="first_using_dialog_message">Aplikacja Kompasu wymaga połączenia z siecią</string>
     <string name="using_camera_confirm_ok">Zgadzam się</string>
     <string name="using_camera_confirm_cancel">Wyjdź</string>
     <string name="shake_enter_tip">Potrząśnij by skalibrować</string>
+    <string name="calibrate_title">Kalibracja kompasu</string>
+    <string name="calibrate_tip">Poruszaj telefonem tak by kropka zatoczyła okrąg</string>
+    <string name="calibrate_rotate_again">Spróbuj ponownie</string>
 </resources>

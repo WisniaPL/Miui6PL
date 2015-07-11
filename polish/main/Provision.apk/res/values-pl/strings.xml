@@ -24,7 +24,7 @@ Wybór ten możesz potem zmienić w Ustawieniach telefonu"</string>
     <string name="other_settings_user_experience_summary">Pomóż MIUI w ulepszaniu produktów przez przesyłanie anonimowych danych %s</string>
     <string name="other_settings_user_experience_summary1">(Polityka Prywatności)</string>
     <string name="next">Dalej</string>
-    <string name="skip_underline">&lt;u>Pomiń krok&lt;/u></string>
+    <string name="skip_underline">Pomiń krok</string>
     <string name="sim_dectection_next">Dalej</string>
     <string name="shut_down">Wyłącz</string>
     <string name="sim_redetection">Sprawdź ponownie</string>

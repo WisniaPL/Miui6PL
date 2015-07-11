@@ -111,6 +111,7 @@
     <string name="account_setup_failed_dlg_certificate_message">Nie można bezpiecznie połączyć się z serwerem.</string>
     <string name="account_setup_failed_dlg_certificate_message_fmt">"Nie można bezpiecznie połączyć się z serwerem.
 (%s)"</string>
+    <string name="account_setup_failed_dlg_device_locked">Adres został zablokowany przez blokadę urządzenia</string>
     <string name="account_setup_failed_dlg_edit_details_action">Edytuj dane</string>
     <string name="account_setup_failed_dlg_server_message">Nie można połączyć się z serwerem.</string>
     <string name="account_setup_failed_dlg_server_message_fmt">"Nie można połączyć się z serwerem.
@@ -128,7 +129,7 @@
     <string name="account_setup_incoming_imap_path_prefix_hint">Opcjonalnie</string>
     <string name="account_setup_incoming_imap_path_prefix_label">Prefiks ścieżki IMAP</string>
     <string name="account_setup_incoming_mail_adress_label">Adresy e-mail</string>
-    <string name="account_setup_incoming_mail_domain_hint">Nie może być puste</string>
+    <string name="account_setup_incoming_mail_domain_hint">Opcjonalne</string>
     <string name="account_setup_incoming_mail_domain_label">Domena</string>
     <string name="account_setup_incoming_password_label">Hasło</string>
     <string name="account_setup_incoming_port_label">Port</string>
@@ -141,6 +142,7 @@
     <string name="account_setup_incoming_server_label">" Serwer"</string>
     <string name="account_setup_incoming_title">Konfiguracja konta</string>
     <string name="account_setup_incoming_username_label">Nazwa użytkownika</string>
+    <string name="account_setup_incoming_username_label_default_hint">(zawiera domenę)</string>
     <string name="account_setup_names_account_name_label">Nazwa konta (opcjonalnie)</string>
     <string name="account_setup_names_headline">Konto zostało skonfigurowane, a e-maile są w drodze.</string>
     <string name="account_setup_names_title">Konfiguracja konta</string>
@@ -241,7 +243,9 @@
     <string name="attachment_image">Obraz</string>
     <string name="attachment_mgr_name">Załącznik</string>
     <string name="attachment_not_exists">Załącznik nie istnieje!</string>
-    <string name="attachment_not_found">Nie można pobrać załącznika.</string>
+    <string name="attachment_not_found">Nie można pobrać załącznika</string>
+    <string name="attachment_open_SecurityException_hint">Check permissions, damage, etc.</string>
+    <string name="attachment_open_SecurityException_title">Failed to open file</string>
     <string name="attachment_stop_all">Zatrzymaj</string>
     <string name="attachment_text">Tekst</string>
     <string name="attachment_type_blocked">Niestety nie możesz zapisać ani otworzyć załącznika tego typu.</string>
@@ -319,7 +323,7 @@
     <string name="contact_edit_set_pop_up_tips">Pokaż podpowiedzi</string>
     <string name="contact_edit_set_unread_top">Pokaż najpierw nieprzeczytane</string>
     <string name="contact_edit_set_vip">Wyjątki</string>
-    <string name="contact_edit_title_permission">Uprawnienia</string>
+    <string name="contact_edit_title_permission">Uprawnienia kontaktów</string>
     <string name="contact_edit_title_phone_contact">Edycja</string>
     <string name="contact_info_string">Pokaż informacje kontaktowe: %1$s</string>
     <string name="contact_info_string_default">Pokaż informacje kontaktowe</string>
@@ -366,7 +370,9 @@
     <string name="device_admin_description">Włącza zasady zabezpieczeń określone na serwerze</string>
     <string name="device_not_activiey_lint1">Device Manager is not activated</string>
     <string name="device_not_activiey_lint2">Mail service does not work properly exchange</string>
-    <string name="dialog_auto_download_failed">"Can't finish auto-download"</string>
+    <string name="dialog_account_auto_sync_setting_no_open">Synchronizacja wyłączona. Nie można pobrać wiadomości.</string>
+    <string name="dialog_auto_download_failed">Nie można ukończyć pobierania</string>
+    <string name="dialog_auto_sync_setting_no_open">Synchronizacja wyłączona. Nie można pobrać wiadomości.</string>
     <string name="dialog_insufficient_space_for_single_account_on_internal">Brak miejsca dla %s.</string>
     <string name="dialog_insufficient_space_on_external">Nie można zakończyć pobierania. Brak wystarczającej ilości pamięci na zewnętrznym nośniku.</string>
     <string name="dialog_insufficient_space_on_internal">Brak miejsca w pamięci wewnętrznej.</string>
@@ -478,7 +484,7 @@
     <string name="imap_password_error">Błędne hasło IMAP</string>
     <string name="inbox_folders_heading">Odebrane</string>
     <string name="info">Informacje</string>
-    <string name="inline_picture_deleted">Nie można znaleźć obrazu. Pobieranie…</string>
+    <string name="inline_picture_deleted">Pobieranie brakujących obrazów</string>
     <string name="inline_picture_download_complete">Pobieranie obrazów zakończone</string>
     <string name="input_password_prompt">Wpisz hasło:</string>
     <string name="invalid_recipient">Adres %s jest nieprawidłowy.</string>
@@ -619,6 +625,9 @@ DW: %4$s
     <string name="notification_action_undo_delete">Usunięto</string>
     <string name="notification_action_undo_remove_label">Etykieta usunięta</string>
     <string name="notification_exchange_calendar_added">Dodany kalendarz exchange</string>
+    <string name="oauth_error_description">Nie można autoryzować</string>
+    <string name="oauth_gmail_login_notify">Musisz podać hasło konta Google na stronie autoryzacyjnej</string>
+    <string name="oauth_login_continue">Dalej</string>
     <string name="ok">OK</string>
     <string name="okay_action">OK</string>
     <string name="open_proxy_in_settings">Gmail nie jest dostępny. Możesz wciąż korzystać z poczty Gmail wykorzystując standardowe ustawienia Poczty.</string>
@@ -683,7 +692,7 @@ limit skrzynki odbiorczej"</string>
     <string name="pop3_name">POP3</string>
     <string name="prefDialogTitle_conversationListIcon">Zdjęcie nadawcy</string>
     <string name="prefDialogTitle_removal_action">Czynności archiwizuj i usuń</string>
-    <string name="preference_eas_tips">The coming activation page is requested by E-mail Server, please rest your heart to activate.</string>
+    <string name="preference_eas_tips">Dotknij Aktywuj by ustawić serwer</string>
     <string name="preference_head_load_description">Minimalizuj użycie danych mobilnych przez pobieranie nagłówków wiadomości.</string>
     <string name="preference_head_load_title">Pobieraj tylko nagłówki</string>
     <string name="preference_imap_tips" />

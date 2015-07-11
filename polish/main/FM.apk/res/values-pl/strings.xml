@@ -6,7 +6,7 @@
     <string name="menu_sleep">Wyłącznik czasowy</string>
     <string name="menu_sleep_cancel">Anuluj wyłączenie</string>
     <string name="menu_record_list">Nagrania FM</string>
-    <string name="menu_scan_start">Skanujj</string>
+    <string name="menu_scan_start">Skanuj</string>
     <string name="menu_new_station">Dodaj nową stację</string>
     <string name="menu_save_station_list">Dodaj do listy</string>
     <string name="menu_save_station_presets">Dodaj do stacji</string>

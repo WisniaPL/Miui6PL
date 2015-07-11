@@ -212,6 +212,7 @@ Couldn't submit feedback"</string>
     <string name="welcom_title">Witaj w MIUI 6</string>
     <string name="welcom_message">Wszystko gotowe</string>
     <string name="welcom_button">OK</string>
+    <string name="install_file_explorer">Zainstaluj menadżer plików</string>
     <string name="downloading_description">Pobieranie...</string>
-    <string name="url_down">http://91.205.75.29//miui-V6/%1$s/MIUIPolska_%2$s_%1$s_v6-4.4.zip</string>
+    <string name="url_down">http://91.205.75.29//miui-V6/%1$s/MIUIPolska_%2$s_%1$s_v6-%3$s.zip</string>
 </resources>

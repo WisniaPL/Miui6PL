@@ -20,15 +20,13 @@
         <item>Największa</item>
     </string-array>
     <string-array name="welcome_notes_content">
-        <item>"Witaj w Notatkach MIUI!
-
-Notatki MIUI pozwalają na szybkie tworzenie przypomnień bezpośrednio w programie lub przez widżety
+        <item>"Dotknij by utworzyć notatkę
 "</item>
-        <item>"Dodawanie zdjęć lub kontaktów
+        <item>"Dotknij przycisku poniżej by dodać zdjęcia lub listę zadań
 "</item>
-        <item>"Tworzenie zadań
+        <item>"By przesunąć lub usunąć notatkę naciśnij długo ikonę notki
 "</item>
-        <item>"I funkcje synchronizacji z Chmurą Xiaomi
+        <item>"Synchronizuj notatki z Chmurą Xiaomi
 
 Podziel się wrażeniami na: 
 http://miuipolska.pl

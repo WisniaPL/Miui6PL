@@ -97,4 +97,13 @@ Wszystkie dane użytkownika zostaną zapisane."</string>
     <string name="uninstall_failed_msg">%1$s nie mogła być zainstalowana</string>
     <string name="Parse_error_dlg_title">Błąd parsowania</string>
     <string name="Parse_error_dlg_text">Wystąpił problem podczas parsowania pakietu.</string>
+    <string name="activity_package_delete_confirm_title">Ostrzeżenie</string>
+    <string name="button_text_cancel">Anuluj</string>
+    <string name="button_text_delete">Usuń</string>
+    <string name="button_text_next_step_timer">Dalej (%d)</string>
+    <string name="button_text_next_step">Dalej</string>
+    <string name="button_text_delete_timer">Usuń (%d)</string>
+    <string name="package_delete_confirm_step_1">Usunąć %s?</string>
+    <string name="package_delete_confirm_step_2">Usunięcie aplikacji może spowodować niestabilność systemu.</string>
+    <string name="package_delete_confirm_step_3">Nie będziesz mógł otworzyć aplikacji jeśli ją usuniesz.</string>
 </resources>

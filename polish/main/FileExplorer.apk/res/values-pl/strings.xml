@@ -38,7 +38,8 @@
     <string name="background">Pobierz w tle</string>
     <string name="no_file">Brak plików</string>
     <string name="tab_category">Kategorie</string>
-    <string name="tab_path">To urządzenie</string>
+    <string name="tab_path">Katalogi</string>
+    <string name="tab_storage">Pamięć</string>
     <string name="category_all">Wszystkie</string>
     <string name="category_music">Muzyka</string>
     <string name="category_video">Wideo</string>
@@ -50,7 +51,7 @@
     <string name="category_other">Inne</string>
     <string name="category_favorite">Ulubione</string>
     <string name="category_bluetooth">Bluetooth</string>
-    <string name="category_log">Logi</string>
+    <string name="category_recent">Ostatnie</string>
     <string name="operation_rename_message">Wprowadź nową nazwę</string>
     <string name="operation_create_folder_message">Wpisz nazwę katalogu</string>
     <string name="operation_delete_confirm_message">Usunąć?</string>
@@ -165,13 +166,14 @@
     <string name="operation_decompressing">Rozpakowywanie…</string>
     <string name="decompress_success">Rozpakowanie pomyślne</string>
     <string name="decompress_fail">Rozpakowanie nieudane!</string>
+    <string name="decompress_destination_error">Wypakowywanie nieudane: nie można rozpakować tutaj plików.</string>
     <string name="decompress_to_here">Rozpakuj tutaj</string>
     <string name="decompress_to">Rozpakuj do…</string>
     <string name="decompress_confirm">Rozpakuj</string>
     <string name="decompress_cancel">Anuluj</string>
     <string name="kuaipan_prompt">Pomoc MiDrive</string>
     <string name="kuaipan_prompt_message">Serwer jest tymczasowo niedostępny. Spróbuj ponownie później.</string>
-    <string name="move_failed">Przenoszenie nieudane</string>
+    <string name="move_failed">Wycinanie nieudane</string>
     <string name="copy_failed">Kopiowanie nieudane</string>
     <string name="delete_failed">Usuwanie nieudane</string>
     <string name="toast_file_not_can_read">Plik nieczytelny.</string>
@@ -203,8 +205,8 @@
     <string name="ftp_username_hint">Login</string>
     <string name="ftp_password_hint">Hasło</string>
     <string name="ftp_invalid_username_or_password">Błąd logowania</string>
-    <string name="add_task">Dodaj zadanie</string>
-    <string name="adding_upload_tasks">Dodawanie zadań do kopiowania.</string>
+    <string name="add_task">Dodaj zadania</string>
+    <string name="adding_upload_tasks">Dodawanie zadań</string>
     <string name="create_new_folder_desctiption">Tworzenie katalogu...</string>
     <string name="create_share_link_description">Tworzenie udostępnionego skrótu…</string>
     <string name="rename_description">Zmiana nazwy, proszę czekać…</string>
@@ -326,6 +328,7 @@
     <string name="kuaipan_photo_locate">Located %1$s</string>
     <string name="kuaipan_photo_folder_divider">,</string>
     <string name="kuaipan_photo_more_folder_count">%1$s</string>
+    <string name="kuaipan_root_fooder">Home</string>
     <string name="kuaipan_cloud_photo">Zdjęcia w Kuaipan</string>
     <string name="kuaipan_create_shortcut_success">Utworzono skrót</string>
     <string name="kuaipan_delete_success">Zdjęcie usunięte</string>
@@ -335,7 +338,18 @@ Zgadzasz się na dostęp aplikacji do sieci?"</string>
     <string name="operation_agree">Zgadzam się</string>
     <string name="never_notify_network_connect">Nie pokazuj ponownie</string>
     <string name="connect_network_setting_des">Zezwól na łączność z siecią</string>
-    <string name="category_recent">Ostatnie</string>
+    <string name="tab_source">Aplikacje</string>
+    <string name="tab_more">więcej</string>
+    <string name="title_recent">Ostatnie</string>
+    <string name="title_more_source">Więcej</string>
+    <string name="expand_all">Wszystko</string>
+    <string name="group_title">%2$s od %1$s</string>
+    <string name="sdcard">Karta SD</string>
+    <string name="category_file">Pliki</string>
+    <string name="sdcard_total">Razem %1$s</string>
+    <string name="sdcard_available">Dostępne %1$s</string>
+    <string name="archive_send_to">Wyślij do…</string>
+    <string name="wechat_video">Wideo %s</string>
+    <string name="month_day_format">dd MMM</string>
     <string name="google_play">Sklep Play</string>
-    <string name="local_cache_size">Rozmiar lokalnej pamięci podręcznej: %s</string>
 </resources>
