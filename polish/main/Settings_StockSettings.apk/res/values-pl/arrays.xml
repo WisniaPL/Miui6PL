@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="sdcard_entries">
-        <item>1-Internal, 2-External</item>
-        <item>1-External, 2-Internal</item>
-        <item>Only internal storage</item>
-        <item>Only microSD card</item>
+        <item>1-Wewnętrzna, 2-Zewnętrzna</item>
+        <item>1-Zewnętrzna, 2-Wewnętrzna</item>
+        <item>Tylko pamięć wewnętrzna</item>
+        <item>Tylko Karta SD</item>
     </string-array>
     <string-array name="sdcard_values">
         <item>0</item>
@@ -13,7 +13,7 @@
         <item>3</item>
     </string-array>
     <string-array name="contacts_sorting_entries">
-        <item>Sorting according to settings</item>
+        <item>Sortowanie według ustawień</item>
         <item>Last First Middle name</item>
         <item>Last, First Middle name</item>
     </string-array>
